@@ -8,7 +8,8 @@ We hooked up two usb cameras to the Oculus Rift and combined the input to get a 
 
 Greetings from the developers of Oculus Reality,
 
-Randy Dijkstra & Ricardo Snoek
+Randy Dijkstra (<a href="https://twitter.com/Ereinion25">@Ereinion25</a>)
+Ricardo Snoek
 
 
 HOW TO SET UP
