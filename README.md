@@ -9,7 +9,7 @@ We believe that the Oculus Rift can be used for more than just virtual reality g
 Greetings from the developers of Oculus Reality,
 
 Randy Dijkstra	(<a href="https://twitter.com/Ereinion25">@Ereinion25</a>),
-Ricardo Snoek 	(<a href="https://ricardoismy.name">Website</a>)
+Ricardo Snoek 	(<a href="ricardoismy.name">Website</a>)
 
 
 HOW TO SET UP
