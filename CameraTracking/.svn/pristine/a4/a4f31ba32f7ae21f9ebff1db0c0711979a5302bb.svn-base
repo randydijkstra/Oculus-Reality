@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+
+use File::Basename;
+use Cwd;
+
+$installPath = $ARGV[0];
+$currDir = getcwd();
+chomp $currDir;
+$xcodeFiles = $currDir."/Assets/Editor/XCode/";
+print $xcodeFiles;
+print;
+print $PATH;
+
+opendir(XCODEPROJECTDIR, $xcodeFiles) || die("Cannot open directory $xcodeFiles");
+@files = readdir(XCODEPROJECTDIR);
+closedir(XCODEPROJECTDIR);
+
+# add the default enhancement pack items to the project
+`/usr/bin/osascript \'$currDir/Assets/Editor/xcode_addFrameworks.scpt\' \'$installPath\' \'$currDir/Assets/Editor\'`;
+
+# copy Default and Icon files (to overwrite the default ones)
+# for everything else, just add the file to the XCode project from where it is
+foreach $file (@files)
+{
+	unless(($file eq ".") || ($file eq ".."))
+	{
+		$fromPath = $xcodeFiles.$file;
+		my(undef, undef, $ftype) = fileparse($file,qr"\..*");
+		if (($file eq "Default.png") || ($file eq "Icon.png")) { `cp -R \'$fromPath\' \'$installPath\'`; }
+		elsif (($file eq "AppController.h") || ($file eq "AppController.mm")) { `cp -R \'$fromPath\' \'$installPath/Classes\'`; }
+		else { `/usr/bin/osascript \'$currDir/Assets/Editor/xcode_addFile.scpt\' \'$fromPath\' \'$file\' \'$ftype\'`; }
+	}
+}

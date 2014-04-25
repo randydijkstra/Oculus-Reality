@@ -1,0 +1,55 @@
+# multimarker definition file for Studierstube Tracker
+
+# set size once for all markers, we could change this anytime...
+size: 54
+
+# first row
+#
+simple-id: 481
+offset: -69 103.5
+
+simple-id: 482
+offset: 0 103.5
+
+simple-id: 483
+offset: 69 103.5
+
+
+# second row
+#
+simple-id: 486
+offset: -69 34.5
+
+simple-id: 487
+offset: 0 34.5
+# specify a rotation (in degrees and counter clockwise)
+rotation: -30
+
+simple-id: 488
+offset: 69 34.5
+
+
+# third row
+#
+simple-id: 491
+offset: -69 -34.5
+
+simple-id: 492
+offset: 0 -34.5
+
+simple-id: 493
+offset: 69 -34.5
+# specify a rotation (in degrees and counter clockwise)
+rotation: 14
+
+
+# fourth row
+#
+simple-id: 496
+offset: -69 -103.5
+
+simple-id: 497
+offset: 0 -103.5
+
+simple-id: 498
+offset: 6934.5 -103.569

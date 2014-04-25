@@ -1,0 +1,2702 @@
+fileFormatVersion: 2
+guid: 6e2ba10e3b9544e3fac66f681daced07
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ankle_l_
+    100002: ankle_r_
+    100004: arm_l_control
+    100006: arm_l_elbow
+    100008: arm_l_elbow 1
+    100010: arm_l_jointStart
+    100012: arm_l_pivot
+    100014: arm_l_slide
+    100016: arm_r_control
+    100018: arm_r_elbow_1
+    100020: arm_r_elbow_2
+    100022: arm_r_jointStart
+    100024: arm_r_pivot
+    100026: arm_r_slide
+    100028: armSlide_l_ctrl
+    100030: armSlide_r_ctrl
+    100032: backFlapControl
+    100034: backTrashTip
+    100036: backTrashTop
+    100038: bodyInnerControl
+    100040: bottom_l_flap
+    100042: bottom_r_flap
+    100044: bottomBackWheel_l_
+    100046: bottomBackWheel_r_
+    100048: bottomFrontWheel_l_
+    100050: bottomFrontWheel_r_
+    100052: cluster1Handle
+    100054: cluster2Handle
+    100056: consoleControl
+    100058: consoleJoint
+    100060: elbow1_l_control
+    100062: elbow1_r_control
+    100064: elbow2_l_control
+    100066: elbow2_r_control
+    100068: eye_l_base
+    100070: eye_r_base
+    100072: eyeball_l_
+    100074: eyeball_r_
+    100076: eyebrow_l_
+    100078: eyebrow_l_control
+    100080: eyebrow_r_
+    100082: eyebrow_r_control
+    100084: feet_l_tread
+    100086: feet_l_tread 1
+    100088: feet_l_tread 10
+    100090: feet_l_tread 11
+    100092: feet_l_tread 12
+    100094: feet_l_tread 13
+    100096: feet_l_tread 14
+    100098: feet_l_tread 15
+    100100: feet_l_tread 16
+    100102: feet_l_tread 17
+    100104: feet_l_tread 18
+    100106: feet_l_tread 19
+    100108: feet_l_tread 2
+    100110: feet_l_tread 20
+    100112: feet_l_tread 21
+    100114: feet_l_tread 22
+    100116: feet_l_tread 23
+    100118: feet_l_tread 24
+    100120: feet_l_tread 25
+    100122: feet_l_tread 26
+    100124: feet_l_tread 27
+    100126: feet_l_tread 28
+    100128: feet_l_tread 29
+    100130: feet_l_tread 3
+    100132: feet_l_tread 30
+    100134: feet_l_tread 4
+    100136: feet_l_tread 5
+    100138: feet_l_tread 6
+    100140: feet_l_tread 7
+    100142: feet_l_tread 8
+    100144: feet_l_tread 9
+    100146: feet_l_tread_ctrl
+    100148: feet_l_tread_ctrl 1
+    100150: feet_l_tread_ctrl 10
+    100152: feet_l_tread_ctrl 11
+    100154: feet_l_tread_ctrl 12
+    100156: feet_l_tread_ctrl 13
+    100158: feet_l_tread_ctrl 14
+    100160: feet_l_tread_ctrl 15
+    100162: feet_l_tread_ctrl 16
+    100164: feet_l_tread_ctrl 17
+    100166: feet_l_tread_ctrl 18
+    100168: feet_l_tread_ctrl 19
+    100170: feet_l_tread_ctrl 2
+    100172: feet_l_tread_ctrl 20
+    100174: feet_l_tread_ctrl 21
+    100176: feet_l_tread_ctrl 22
+    100178: feet_l_tread_ctrl 23
+    100180: feet_l_tread_ctrl 24
+    100182: feet_l_tread_ctrl 25
+    100184: feet_l_tread_ctrl 26
+    100186: feet_l_tread_ctrl 27
+    100188: feet_l_tread_ctrl 28
+    100190: feet_l_tread_ctrl 29
+    100192: feet_l_tread_ctrl 3
+    100194: feet_l_tread_ctrl 30
+    100196: feet_l_tread_ctrl 4
+    100198: feet_l_tread_ctrl 5
+    100200: feet_l_tread_ctrl 6
+    100202: feet_l_tread_ctrl 7
+    100204: feet_l_tread_ctrl 8
+    100206: feet_l_tread_ctrl 9
+    100208: feet_l_tread_grp
+    100210: feet_l_tread_grp 1
+    100212: feet_l_tread_grp 10
+    100214: feet_l_tread_grp 11
+    100216: feet_l_tread_grp 12
+    100218: feet_l_tread_grp 13
+    100220: feet_l_tread_grp 14
+    100222: feet_l_tread_grp 15
+    100224: feet_l_tread_grp 16
+    100226: feet_l_tread_grp 17
+    100228: feet_l_tread_grp 18
+    100230: feet_l_tread_grp 19
+    100232: feet_l_tread_grp 2
+    100234: feet_l_tread_grp 20
+    100236: feet_l_tread_grp 21
+    100238: feet_l_tread_grp 22
+    100240: feet_l_tread_grp 23
+    100242: feet_l_tread_grp 24
+    100244: feet_l_tread_grp 25
+    100246: feet_l_tread_grp 26
+    100248: feet_l_tread_grp 27
+    100250: feet_l_tread_grp 28
+    100252: feet_l_tread_grp 29
+    100254: feet_l_tread_grp 3
+    100256: feet_l_tread_grp 30
+    100258: feet_l_tread_grp 4
+    100260: feet_l_tread_grp 5
+    100262: feet_l_tread_grp 6
+    100264: feet_l_tread_grp 7
+    100266: feet_l_tread_grp 8
+    100268: feet_l_tread_grp 9
+    100270: feet_r_tread
+    100272: feet_r_tread 1
+    100274: feet_r_tread 10
+    100276: feet_r_tread 11
+    100278: feet_r_tread 12
+    100280: feet_r_tread 13
+    100282: feet_r_tread 14
+    100284: feet_r_tread 15
+    100286: feet_r_tread 16
+    100288: feet_r_tread 17
+    100290: feet_r_tread 18
+    100292: feet_r_tread 19
+    100294: feet_r_tread 2
+    100296: feet_r_tread 20
+    100298: feet_r_tread 21
+    100300: feet_r_tread 22
+    100302: feet_r_tread 23
+    100304: feet_r_tread 24
+    100306: feet_r_tread 25
+    100308: feet_r_tread 26
+    100310: feet_r_tread 27
+    100312: feet_r_tread 28
+    100314: feet_r_tread 29
+    100316: feet_r_tread 3
+    100318: feet_r_tread 30
+    100320: feet_r_tread 4
+    100322: feet_r_tread 5
+    100324: feet_r_tread 6
+    100326: feet_r_tread 7
+    100328: feet_r_tread 8
+    100330: feet_r_tread 9
+    100332: feet_r_tread_ctrl
+    100334: feet_r_tread_ctrl 1
+    100336: feet_r_tread_ctrl 10
+    100338: feet_r_tread_ctrl 11
+    100340: feet_r_tread_ctrl 12
+    100342: feet_r_tread_ctrl 13
+    100344: feet_r_tread_ctrl 14
+    100346: feet_r_tread_ctrl 15
+    100348: feet_r_tread_ctrl 16
+    100350: feet_r_tread_ctrl 17
+    100352: feet_r_tread_ctrl 18
+    100354: feet_r_tread_ctrl 19
+    100356: feet_r_tread_ctrl 2
+    100358: feet_r_tread_ctrl 20
+    100360: feet_r_tread_ctrl 21
+    100362: feet_r_tread_ctrl 22
+    100364: feet_r_tread_ctrl 23
+    100366: feet_r_tread_ctrl 24
+    100368: feet_r_tread_ctrl 25
+    100370: feet_r_tread_ctrl 26
+    100372: feet_r_tread_ctrl 27
+    100374: feet_r_tread_ctrl 28
+    100376: feet_r_tread_ctrl 29
+    100378: feet_r_tread_ctrl 3
+    100380: feet_r_tread_ctrl 30
+    100382: feet_r_tread_ctrl 4
+    100384: feet_r_tread_ctrl 5
+    100386: feet_r_tread_ctrl 6
+    100388: feet_r_tread_ctrl 7
+    100390: feet_r_tread_ctrl 8
+    100392: feet_r_tread_ctrl 9
+    100394: feet_r_tread_grp
+    100396: feet_r_tread_grp 1
+    100398: feet_r_tread_grp 10
+    100400: feet_r_tread_grp 11
+    100402: feet_r_tread_grp 12
+    100404: feet_r_tread_grp 13
+    100406: feet_r_tread_grp 14
+    100408: feet_r_tread_grp 15
+    100410: feet_r_tread_grp 16
+    100412: feet_r_tread_grp 17
+    100414: feet_r_tread_grp 18
+    100416: feet_r_tread_grp 19
+    100418: feet_r_tread_grp 2
+    100420: feet_r_tread_grp 20
+    100422: feet_r_tread_grp 21
+    100424: feet_r_tread_grp 22
+    100426: feet_r_tread_grp 23
+    100428: feet_r_tread_grp 24
+    100430: feet_r_tread_grp 25
+    100432: feet_r_tread_grp 26
+    100434: feet_r_tread_grp 27
+    100436: feet_r_tread_grp 28
+    100438: feet_r_tread_grp 29
+    100440: feet_r_tread_grp 3
+    100442: feet_r_tread_grp 30
+    100444: feet_r_tread_grp 4
+    100446: feet_r_tread_grp 5
+    100448: feet_r_tread_grp 6
+    100450: feet_r_tread_grp 7
+    100452: feet_r_tread_grp 8
+    100454: feet_r_tread_grp 9
+    100456: fkj_arm_l_elbow
+    100458: fkj_arm_l_elbow 1
+    100460: fkj_arm_l_pivot
+    100462: fkj_arm_r_elbow_1
+    100464: fkj_arm_r_elbow_2
+    100466: fkj_arm_r_pivot
+    100468: foot_l_slide
+    100470: foot_r_slide
+    100472: frontCompartment
+    100474: goggle_l_ctrl
+    100476: goggle_r_ctrl
+    100478: grp_ctrls
+    100480: grp_ik
+    100482: grp_joints
+    100484: grp_mesh
+    100486: grp_noTouch
+    100488: hand_l_control
+    100490: hand_l_index_A
+    100492: hand_l_index_B
+    100494: hand_l_index_C
+    100496: hand_l_pinky_A
+    100498: hand_l_pinky_B
+    100500: hand_l_pinky_C
+    100502: hand_l_thumb_A
+    100504: hand_l_thumb_B
+    100506: hand_l_thumb_C
+    100508: hand_r_control
+    100510: hand_r_index_A
+    100512: hand_r_index_B
+    100514: hand_r_index_C
+    100516: hand_r_pinky_A
+    100518: hand_r_pinky_B
+    100520: hand_r_pinky_C
+    100522: hand_r_thumb_A
+    100524: hand_r_thumb_B
+    100526: hand_r_thumb_C
+    100528: head_transform_ctrl
+    100530: headBase
+    100532: headControl
+    100534: hip_l
+    100536: hip_r_
+    100538: hip_root_l_
+    100540: hip_root_r_
+    100542: ik_hand_l_control
+    100544: ik_hand_r_control
+    100546: ikHandle2
+    100548: ikHandle3
+    100550: ikj_arm_l_elbow_1
+    100552: ikj_arm_l_elbow_2
+    100554: ikj_arm_l_pivot
+    100556: ikj_arm_r_elbow_1
+    100558: ikj_arm_r_elbow_2
+    100560: ikj_arm_r_pivot
+    100562: ikLeg_l_ctrl
+    100564: ikLeg_r_ctrl
+    100566: inner_finger_l_ctrl_1
+    100568: inner_finger_l_ctrl_2
+    100570: inner_finger_r_ctrl_1
+    100572: inner_finger_r_ctrl_2
+    100574: iris_l_base
+    100576: iris_r_base
+    100578: knee_l_1
+    100580: knee_l_2
+    100582: knee_r_1
+    100584: knee_r_2
+    100586: leftEyeControl
+    100588: leftIKLegGrp
+    100590: leftNeutralBlendShape
+    100592: leftOppositeBlendShape
+    100594: leftStorageBlendShape
+    100596: leftStorageBottomBlendShape
+    100598: locator1
+    100600: locator2
+    100602: neckBase
+    100604: neckBaseControl
+    100606: neckConnector
+    100608: neckControl
+    100610: neckIK
+    100612: neckMid
+    100614: neckPVControl
+    100616: neckTop
+    100618: neckTopPivot
+    100620: outer_finger_l_ctrl_1
+    100622: outer_finger_l_ctrl_2
+    100624: outer_finger_r_ctrl_1
+    100626: outer_finger_r_ctrl_2
+    100628: pauseButton
+    100630: pauseControl
+    100632: pCube1
+    100634: pCube11
+    100636: pCube12
+    100638: pCube13
+    100640: pCube14
+    100642: pCube15
+    100644: pCube16
+    100646: pCube17
+    100648: pCube19
+    100650: pCube21
+    100652: pCube3
+    100654: pCube32
+    100656: pCube33
+    100658: pCube39
+    100660: pCube4
+    100662: pCube44
+    100664: pCube46
+    100666: pCube47
+    100668: pCube48
+    100670: pCube49
+    100672: pCube50
+    100674: pCube51
+    100676: pCube52
+    100678: pCube53
+    100680: pCube54
+    100682: pCube55
+    100684: pCube56
+    100686: pCube57
+    100688: pCube58
+    100690: pCube59
+    100692: pCube60
+    100694: pCube61
+    100696: pCube62
+    100698: pCube63
+    100700: pCube64
+    100702: pCube65
+    100704: pCube66
+    100706: pCube67
+    100708: pCube68
+    100710: pCube69
+    100712: pCube7
+    100714: pCube71
+    100716: pCube72
+    100718: pCube73
+    100720: pCube74
+    100722: pCube75
+    100724: pCube76
+    100726: pCube77
+    100728: pCube8
+    100730: pCube9
+    100732: pCylinder1
+    100734: pCylinder10
+    100736: pCylinder100
+    100738: pCylinder101
+    100740: pCylinder102
+    100742: pCylinder103
+    100744: pCylinder104
+    100746: pCylinder105
+    100748: pCylinder106
+    100750: pCylinder107
+    100752: pCylinder11
+    100754: pCylinder12
+    100756: pCylinder15
+    100758: pCylinder16
+    100760: pCylinder17
+    100762: pCylinder18
+    100764: pCylinder19
+    100766: pCylinder2
+    100768: pCylinder27
+    100770: pCylinder28
+    100772: pCylinder3
+    100774: pCylinder33
+    100776: pCylinder36
+    100778: pCylinder38
+    100780: pCylinder43
+    100782: pCylinder44
+    100784: pCylinder47
+    100786: pCylinder48
+    100788: pCylinder49
+    100790: pCylinder50
+    100792: pCylinder51
+    100794: pCylinder61
+    100796: pCylinder62
+    100798: pCylinder63
+    100800: pCylinder68
+    100802: pCylinder69
+    100804: pCylinder71
+    100806: pCylinder74
+    100808: pCylinder75
+    100810: pCylinder76
+    100812: pCylinder80
+    100814: pCylinder81
+    100816: pCylinder82
+    100818: pCylinder83
+    100820: pCylinder84
+    100822: pCylinder85
+    100824: pCylinder86
+    100826: pCylinder87
+    100828: pCylinder88
+    100830: pCylinder89
+    100832: pCylinder9
+    100834: pCylinder90
+    100836: pCylinder91
+    100838: pCylinder92
+    100840: pCylinder93
+    100842: pCylinder94
+    100844: pCylinder95
+    100846: pCylinder96
+    100848: pCylinder97
+    100850: pCylinder98
+    100852: pCylinder99
+    100854: piv_arm_l_control
+    100856: piv_arm_l_control_sub
+    100858: piv_arm_r_control
+    100860: piv_arm_r_control_sub
+    100862: piv_armSlide_l_ctrl
+    100864: piv_armSlide_l_ctrl_sub
+    100866: piv_armSlide_r_ctrl
+    100868: piv_armSlide_r_ctrl_sub
+    100870: piv_backFlapControl
+    100872: piv_backFlapControl_sub
+    100874: piv_consoleControl
+    100876: piv_consoleControl_sub
+    100878: piv_elbow1_l_control
+    100880: piv_elbow1_l_control_sub
+    100882: piv_elbow1_r_control
+    100884: piv_elbow1_r_control_sub
+    100886: piv_elbow2_l_control
+    100888: piv_elbow2_l_control_sub
+    100890: piv_elbow2_r_control
+    100892: piv_elbow2_r_control_sub
+    100894: piv_eyebrow_l_control
+    100896: piv_eyebrow_l_control_sub
+    100898: piv_eyebrow_r_control
+    100900: piv_eyebrow_r_control_sub
+    100902: piv_feet_l_tread_ctrl
+    100904: piv_feet_l_tread_ctrl 1
+    100906: piv_feet_l_tread_ctrl 10
+    100908: piv_feet_l_tread_ctrl 11
+    100910: piv_feet_l_tread_ctrl 12
+    100912: piv_feet_l_tread_ctrl 13
+    100914: piv_feet_l_tread_ctrl 14
+    100916: piv_feet_l_tread_ctrl 15
+    100918: piv_feet_l_tread_ctrl 16
+    100920: piv_feet_l_tread_ctrl 17
+    100922: piv_feet_l_tread_ctrl 18
+    100924: piv_feet_l_tread_ctrl 19
+    100926: piv_feet_l_tread_ctrl 2
+    100928: piv_feet_l_tread_ctrl 20
+    100930: piv_feet_l_tread_ctrl 21
+    100932: piv_feet_l_tread_ctrl 22
+    100934: piv_feet_l_tread_ctrl 23
+    100936: piv_feet_l_tread_ctrl 24
+    100938: piv_feet_l_tread_ctrl 25
+    100940: piv_feet_l_tread_ctrl 26
+    100942: piv_feet_l_tread_ctrl 27
+    100944: piv_feet_l_tread_ctrl 28
+    100946: piv_feet_l_tread_ctrl 29
+    100948: piv_feet_l_tread_ctrl 3
+    100950: piv_feet_l_tread_ctrl 30
+    100952: piv_feet_l_tread_ctrl 4
+    100954: piv_feet_l_tread_ctrl 5
+    100956: piv_feet_l_tread_ctrl 6
+    100958: piv_feet_l_tread_ctrl 7
+    100960: piv_feet_l_tread_ctrl 8
+    100962: piv_feet_l_tread_ctrl 9
+    100964: piv_feet_r_tread_ctrl
+    100966: piv_feet_r_tread_ctrl 1
+    100968: piv_feet_r_tread_ctrl 10
+    100970: piv_feet_r_tread_ctrl 11
+    100972: piv_feet_r_tread_ctrl 12
+    100974: piv_feet_r_tread_ctrl 13
+    100976: piv_feet_r_tread_ctrl 14
+    100978: piv_feet_r_tread_ctrl 15
+    100980: piv_feet_r_tread_ctrl 16
+    100982: piv_feet_r_tread_ctrl 17
+    100984: piv_feet_r_tread_ctrl 18
+    100986: piv_feet_r_tread_ctrl 19
+    100988: piv_feet_r_tread_ctrl 2
+    100990: piv_feet_r_tread_ctrl 20
+    100992: piv_feet_r_tread_ctrl 21
+    100994: piv_feet_r_tread_ctrl 22
+    100996: piv_feet_r_tread_ctrl 23
+    100998: piv_feet_r_tread_ctrl 24
+    101000: piv_feet_r_tread_ctrl 25
+    101002: piv_feet_r_tread_ctrl 26
+    101004: piv_feet_r_tread_ctrl 27
+    101006: piv_feet_r_tread_ctrl 28
+    101008: piv_feet_r_tread_ctrl 29
+    101010: piv_feet_r_tread_ctrl 3
+    101012: piv_feet_r_tread_ctrl 30
+    101014: piv_feet_r_tread_ctrl 4
+    101016: piv_feet_r_tread_ctrl 5
+    101018: piv_feet_r_tread_ctrl 6
+    101020: piv_feet_r_tread_ctrl 7
+    101022: piv_feet_r_tread_ctrl 8
+    101024: piv_feet_r_tread_ctrl 9
+    101026: piv_goggle_l_ctrl
+    101028: piv_goggle_l_ctrl_sub
+    101030: piv_goggle_r_ctrl
+    101032: piv_goggle_r_ctrl_sub
+    101034: piv_hand_l_control
+    101036: piv_hand_l_control_sub
+    101038: piv_hand_r_control
+    101040: piv_hand_r_control_sub
+    101042: piv_head_transform_ctrl
+    101044: piv_head_transform_ctrl_sub
+    101046: piv_headControl
+    101048: piv_headControl_sub
+    101050: piv_ik_hand_l_control
+    101052: piv_ik_hand_l_control_sub
+    101054: piv_ik_hand_r_control
+    101056: piv_ik_hand_r_control_sub
+    101058: piv_ikLeg_l_ctrl
+    101060: piv_ikLeg_l_ctrl_sub
+    101062: piv_ikLeg_r_ctrl
+    101064: piv_ikLeg_r_ctrl_sub
+    101066: piv_inner_finger_l_ctrl_1
+    101068: piv_inner_finger_l_ctrl_1_sub
+    101070: piv_inner_finger_l_ctrl_2
+    101072: piv_inner_finger_l_ctrl_2_sub
+    101074: piv_inner_finger_r_ctrl_1
+    101076: piv_inner_finger_r_ctrl_1_sub
+    101078: piv_inner_finger_r_ctrl_2
+    101080: piv_inner_finger_r_ctrl_2_sub
+    101082: piv_leftEyeControl
+    101084: piv_leftEyeControl_sub
+    101086: piv_name
+    101088: piv_name_sub
+    101090: piv_neckBaseControl
+    101092: piv_neckBaseControl_sub
+    101094: piv_neckControl
+    101096: piv_neckControl_sub
+    101098: piv_neckPVControl
+    101100: piv_neckPVControl_sub
+    101102: piv_outer_finger_l_ctrl_1
+    101104: piv_outer_finger_l_ctrl_1_sub
+    101106: piv_outer_finger_l_ctrl_2
+    101108: piv_outer_finger_l_ctrl_2_sub
+    101110: piv_outer_finger_r_ctrl_1
+    101112: piv_outer_finger_r_ctrl_1_sub
+    101114: piv_outer_finger_r_ctrl_2
+    101116: piv_outer_finger_r_ctrl_2_sub
+    101118: piv_pauseControl
+    101120: piv_pauseControl_sub
+    101122: piv_playControl_sub
+    101124: piv_recordControl
+    101126: piv_recordControl 1
+    101128: piv_recordControl_sub
+    101130: piv_rightEyeControl
+    101132: piv_rightEyeControl_sub
+    101134: piv_rootControl
+    101136: piv_rootControl_sub
+    101138: piv_thumb_finger_l_ctrl_2
+    101140: piv_thumb_finger_l_ctrl_2_sub
+    101142: piv_thumb_finger_r_ctrl_2
+    101144: piv_thumb_finger_r_ctrl_2_sub
+    101146: piv_thumb_l_ctrl_1
+    101148: piv_thumb_l_ctrl_1_sub
+    101150: piv_thumb_r_ctrl_1
+    101152: piv_thumb_r_ctrl_1_sub
+    101154: piv_topControl
+    101156: piv_topControl_sub
+    101158: piv_torsoControl
+    101160: piv_torsoControl_sub
+    101162: piv_trashCompactorControl
+    101164: piv_trashCompactorControl_sub
+    101166: piv_trayControl
+    101168: piv_trayControl_sub
+    101170: piv_tread_l_ctrl
+    101172: piv_tread_l_ctrl_sub
+    101174: piv_tread_r_ctrl
+    101176: piv_tread_r_ctrl_sub
+    101178: piv_wheel_rotate_l_ctrl
+    101180: piv_wheel_rotate_l_ctrl_sub
+    101182: piv_wheel_rotate_r_ctrl
+    101184: piv_wheel_rotate_r_ctrl_sub
+    101186: piv_wire_l_Control
+    101188: piv_wire_l_Control_sub
+    101190: piv_wire_r_Control
+    101192: piv_wire_r_Control_sub
+    101194: playButton
+    101196: playControl
+    101198: polySurface10
+    101200: polySurface100
+    101202: polySurface101
+    101204: polySurface102
+    101206: polySurface103
+    101208: polySurface104
+    101210: polySurface106
+    101212: polySurface107
+    101214: polySurface108
+    101216: polySurface109
+    101218: polySurface11
+    101220: polySurface110
+    101222: polySurface111
+    101224: polySurface112
+    101226: polySurface113
+    101228: polySurface114
+    101230: polySurface115
+    101232: polySurface116
+    101234: polySurface117
+    101236: polySurface118
+    101238: polySurface119
+    101240: polySurface120
+    101242: polySurface121
+    101244: polySurface122
+    101246: polySurface123
+    101248: polySurface124
+    101250: polySurface125
+    101252: polySurface126
+    101254: polySurface127
+    101256: polySurface128
+    101258: polySurface129
+    101260: polySurface130
+    101262: polySurface131
+    101264: polySurface132
+    101266: polySurface133
+    101268: polySurface134
+    101270: polySurface135
+    101272: polySurface136
+    101274: polySurface137
+    101276: polySurface138
+    101278: polySurface139
+    101280: polySurface14
+    101282: polySurface140
+    101284: polySurface141
+    101286: polySurface142
+    101288: polySurface143
+    101290: polySurface144
+    101292: polySurface145
+    101294: polySurface148
+    101296: polySurface149
+    101298: polySurface150
+    101300: polySurface151
+    101302: polySurface152
+    101304: polySurface153
+    101306: polySurface154
+    101308: polySurface155
+    101310: polySurface156
+    101312: polySurface2
+    101314: polySurface22
+    101316: polySurface26
+    101318: polySurface27
+    101320: polySurface28
+    101322: polySurface29
+    101324: polySurface3
+    101326: polySurface30
+    101328: polySurface41
+    101330: polySurface42
+    101332: polySurface43
+    101334: polySurface44
+    101336: polySurface45
+    101338: polySurface46
+    101340: polySurface47
+    101342: polySurface5
+    101344: polySurface50
+    101346: polySurface51
+    101348: polySurface52
+    101350: polySurface53
+    101352: polySurface54
+    101354: polySurface55
+    101356: polySurface56
+    101358: polySurface57
+    101360: polySurface58
+    101362: polySurface59
+    101364: polySurface6
+    101366: polySurface60
+    101368: polySurface61
+    101370: polySurface62
+    101372: polySurface63
+    101374: polySurface64
+    101376: polySurface65
+    101378: polySurface66
+    101380: polySurface67
+    101382: polySurface68
+    101384: polySurface69
+    101386: polySurface70
+    101388: polySurface71
+    101390: polySurface72
+    101392: polySurface73
+    101394: polySurface74
+    101396: polySurface75
+    101398: polySurface76
+    101400: polySurface77
+    101402: polySurface78
+    101404: polySurface79
+    101406: polySurface8
+    101408: polySurface80
+    101410: polySurface85
+    101412: polySurface88
+    101414: polySurface89
+    101416: polySurface90
+    101418: polySurface95
+    101420: polySurface96
+    101422: polySurface97
+    101424: polySurface98
+    101426: polySurface99
+    101428: pPlane12
+    101430: pPlane13
+    101432: pPlane18
+    101434: pPlane19
+    101436: pPlane21
+    101438: pPlane23
+    101440: pPlane24
+    101442: pPlane25
+    101444: pPlane8
+    101446: pSphere1
+    101448: pSphere2
+    101450: pSphere3
+    101452: pSphere4
+    101454: pSphere5
+    101456: recordButton
+    101458: recordControl
+    101460: rightEyeControl
+    101462: rightIKLegGrp
+    101464: root
+    101466: rootControl
+    101468: thumb_finger_l_ctrl_2
+    101470: thumb_finger_r_ctrl_2
+    101472: thumb_l_ctrl_1
+    101474: thumb_r_ctrl_1
+    101476: top_l_flap
+    101478: top_r_flap
+    101480: topBackWheel_l_
+    101482: topBackWheel_r_
+    101484: topControl
+    101486: topFrontWheel_l_
+    101488: topFrontWheel_r_
+    101490: topPartTransform
+    101492: topPivot
+    101494: topWheels_l_rotate
+    101496: topWheels_l_slide
+    101498: topWheels_r_rotate
+    101500: topWheels_r_slide
+    101502: torsoControl
+    101504: trashCompactor
+    101506: trashCompactorControl
+    101508: trayControl
+    101510: tread_l_ctrl
+    101512: tread_l_mainCurve
+    101514: tread_r_ctrl
+    101516: tread_r_mainCurve
+    101518: //RootNode
+    101520: wheel_rotate_l_ctrl
+    101522: wheel_rotate_r_ctrl
+    101524: wire10
+    101526: wire10 1
+    101528: wire11
+    101530: wire11 1
+    101532: wire12
+    101534: wire12 1
+    101536: wire13
+    101538: wire13 1
+    101540: wire14
+    101542: wire14 1
+    101544: wire15
+    101546: wire15 1
+    101548: wire28
+    101550: wire6
+    101552: wire7
+    101554: wire7 1
+    101556: wire8
+    101558: wire8 1
+    101560: wire9
+    101562: wire9 1
+    101564: wire_l_Control
+    101566: wire_l_IK
+    101568: wire_r_Control
+    101570: wire_r_IK
+    101572: wrist_l_
+    101574: wrist_r_
+    101576: zero_piv_arm_l_control
+    101578: zero_piv_arm_l_control_sub
+    101580: zero_piv_arm_r_control
+    101582: zero_piv_arm_r_control_sub
+    101584: zero_piv_armSlide_l_ctrl
+    101586: zero_piv_armSlide_l_ctrl_sub
+    101588: zero_piv_armSlide_r_ctrl
+    101590: zero_piv_armSlide_r_ctrl_sub
+    101592: zero_piv_backFlapControl
+    101594: zero_piv_backFlapControl_sub
+    101596: zero_piv_consoleControl
+    101598: zero_piv_consoleControl_sub
+    101600: zero_piv_elbow1_l_control
+    101602: zero_piv_elbow1_l_control_sub
+    101604: zero_piv_elbow1_r_control
+    101606: zero_piv_elbow1_r_control_sub
+    101608: zero_piv_elbow2_l_control
+    101610: zero_piv_elbow2_l_control_sub
+    101612: zero_piv_elbow2_r_control
+    101614: zero_piv_elbow2_r_control_sub
+    101616: zero_piv_eyebrow_l_control
+    101618: zero_piv_eyebrow_l_control_sub
+    101620: zero_piv_eyebrow_r_control
+    101622: zero_piv_eyebrow_r_control_sub
+    101624: zero_piv_feet_l_tread_ctrl_1
+    101626: zero_piv_feet_l_tread_ctrl_10
+    101628: zero_piv_feet_l_tread_ctrl_11
+    101630: zero_piv_feet_l_tread_ctrl_12
+    101632: zero_piv_feet_l_tread_ctrl_13
+    101634: zero_piv_feet_l_tread_ctrl_14
+    101636: zero_piv_feet_l_tread_ctrl_15
+    101638: zero_piv_feet_l_tread_ctrl_16
+    101640: zero_piv_feet_l_tread_ctrl_17
+    101642: zero_piv_feet_l_tread_ctrl_18
+    101644: zero_piv_feet_l_tread_ctrl_19
+    101646: zero_piv_feet_l_tread_ctrl_2
+    101648: zero_piv_feet_l_tread_ctrl_20
+    101650: zero_piv_feet_l_tread_ctrl_21
+    101652: zero_piv_feet_l_tread_ctrl_22
+    101654: zero_piv_feet_l_tread_ctrl_23
+    101656: zero_piv_feet_l_tread_ctrl_24
+    101658: zero_piv_feet_l_tread_ctrl_25
+    101660: zero_piv_feet_l_tread_ctrl_26
+    101662: zero_piv_feet_l_tread_ctrl_27
+    101664: zero_piv_feet_l_tread_ctrl_28
+    101666: zero_piv_feet_l_tread_ctrl_29
+    101668: zero_piv_feet_l_tread_ctrl_3
+    101670: zero_piv_feet_l_tread_ctrl_30
+    101672: zero_piv_feet_l_tread_ctrl_31
+    101674: zero_piv_feet_l_tread_ctrl_4
+    101676: zero_piv_feet_l_tread_ctrl_5
+    101678: zero_piv_feet_l_tread_ctrl_6
+    101680: zero_piv_feet_l_tread_ctrl_7
+    101682: zero_piv_feet_l_tread_ctrl_8
+    101684: zero_piv_feet_l_tread_ctrl_9
+    101686: zero_piv_feet_r_tread_ctrl_1
+    101688: zero_piv_feet_r_tread_ctrl_10
+    101690: zero_piv_feet_r_tread_ctrl_11
+    101692: zero_piv_feet_r_tread_ctrl_12
+    101694: zero_piv_feet_r_tread_ctrl_13
+    101696: zero_piv_feet_r_tread_ctrl_14
+    101698: zero_piv_feet_r_tread_ctrl_15
+    101700: zero_piv_feet_r_tread_ctrl_16
+    101702: zero_piv_feet_r_tread_ctrl_17
+    101704: zero_piv_feet_r_tread_ctrl_18
+    101706: zero_piv_feet_r_tread_ctrl_19
+    101708: zero_piv_feet_r_tread_ctrl_2
+    101710: zero_piv_feet_r_tread_ctrl_20
+    101712: zero_piv_feet_r_tread_ctrl_21
+    101714: zero_piv_feet_r_tread_ctrl_22
+    101716: zero_piv_feet_r_tread_ctrl_23
+    101718: zero_piv_feet_r_tread_ctrl_24
+    101720: zero_piv_feet_r_tread_ctrl_25
+    101722: zero_piv_feet_r_tread_ctrl_26
+    101724: zero_piv_feet_r_tread_ctrl_27
+    101726: zero_piv_feet_r_tread_ctrl_28
+    101728: zero_piv_feet_r_tread_ctrl_29
+    101730: zero_piv_feet_r_tread_ctrl_3
+    101732: zero_piv_feet_r_tread_ctrl_30
+    101734: zero_piv_feet_r_tread_ctrl_31
+    101736: zero_piv_feet_r_tread_ctrl_4
+    101738: zero_piv_feet_r_tread_ctrl_5
+    101740: zero_piv_feet_r_tread_ctrl_6
+    101742: zero_piv_feet_r_tread_ctrl_7
+    101744: zero_piv_feet_r_tread_ctrl_8
+    101746: zero_piv_feet_r_tread_ctrl_9
+    101748: zero_piv_goggle_l_ctrl
+    101750: zero_piv_goggle_l_ctrl_sub
+    101752: zero_piv_goggle_r_ctrl
+    101754: zero_piv_goggle_r_ctrl_sub
+    101756: zero_piv_hand_l_control
+    101758: zero_piv_hand_l_control_sub
+    101760: zero_piv_hand_r_control
+    101762: zero_piv_hand_r_control_sub
+    101764: zero_piv_head_transform_ctrl
+    101766: zero_piv_head_transform_ctrl_sub
+    101768: zero_piv_headControl
+    101770: zero_piv_headControl_sub
+    101772: zero_piv_ik_hand_l_control
+    101774: zero_piv_ik_hand_l_control_sub
+    101776: zero_piv_ik_hand_r_control
+    101778: zero_piv_ik_hand_r_control_sub
+    101780: zero_piv_ikLeg_l_ctrl
+    101782: zero_piv_ikLeg_l_ctrl_sub
+    101784: zero_piv_ikLeg_r_ctrl
+    101786: zero_piv_ikLeg_r_ctrl_sub
+    101788: zero_piv_inner_finger_l_ctrl_1
+    101790: zero_piv_inner_finger_l_ctrl_1_sub
+    101792: zero_piv_inner_finger_l_ctrl_2
+    101794: zero_piv_inner_finger_l_ctrl_2_sub
+    101796: zero_piv_inner_finger_r_ctrl_1
+    101798: zero_piv_inner_finger_r_ctrl_1_sub
+    101800: zero_piv_inner_finger_r_ctrl_2
+    101802: zero_piv_inner_finger_r_ctrl_2_sub
+    101804: zero_piv_leftEyeControl
+    101806: zero_piv_leftEyeControl_sub
+    101808: zero_piv_name
+    101810: zero_piv_name_sub
+    101812: zero_piv_neckBaseControl
+    101814: zero_piv_neckBaseControl_sub
+    101816: zero_piv_neckControl
+    101818: zero_piv_neckControl_sub
+    101820: zero_piv_neckPVControl
+    101822: zero_piv_neckPVControl_sub
+    101824: zero_piv_outer_finger_l_ctrl_1
+    101826: zero_piv_outer_finger_l_ctrl_1_sub
+    101828: zero_piv_outer_finger_l_ctrl_2
+    101830: zero_piv_outer_finger_l_ctrl_2_sub
+    101832: zero_piv_outer_finger_r_ctrl_1
+    101834: zero_piv_outer_finger_r_ctrl_1_sub
+    101836: zero_piv_outer_finger_r_ctrl_2
+    101838: zero_piv_outer_finger_r_ctrl_2_sub
+    101840: zero_piv_pauseControl
+    101842: zero_piv_pauseControl_sub
+    101844: zero_piv_playControl
+    101846: zero_piv_playControl_sub
+    101848: zero_piv_recordControl
+    101850: zero_piv_recordControl_sub
+    101852: zero_piv_rightEyeControl
+    101854: zero_piv_rightEyeControl_sub
+    101856: zero_piv_rootControl
+    101858: zero_piv_rootControl_sub
+    101860: zero_piv_thumb_finger_l_ctrl_2
+    101862: zero_piv_thumb_finger_l_ctrl_2_sub
+    101864: zero_piv_thumb_finger_r_ctrl_2
+    101866: zero_piv_thumb_finger_r_ctrl_2_sub
+    101868: zero_piv_thumb_l_ctrl_1
+    101870: zero_piv_thumb_l_ctrl_1_sub
+    101872: zero_piv_thumb_r_ctrl_1
+    101874: zero_piv_thumb_r_ctrl_1_sub
+    101876: zero_piv_topControl
+    101878: zero_piv_topControl_sub
+    101880: zero_piv_torsoControl
+    101882: zero_piv_torsoControl_sub
+    101884: zero_piv_trashCompactorControl
+    101886: zero_piv_trashCompactorControl_sub
+    101888: zero_piv_trayControl
+    101890: zero_piv_trayControl_sub
+    101892: zero_piv_tread_l_ctrl
+    101894: zero_piv_tread_l_ctrl_sub
+    101896: zero_piv_tread_r_ctrl
+    101898: zero_piv_tread_r_ctrl_sub
+    101900: zero_piv_wheel_rotate_l_ctrl
+    101902: zero_piv_wheel_rotate_l_ctrl_sub
+    101904: zero_piv_wheel_rotate_r_ctrl
+    101906: zero_piv_wheel_rotate_r_ctrl_sub
+    101908: zero_piv_wire_l_Control
+    101910: zero_piv_wire_l_Control_sub
+    101912: zero_piv_wire_r_Control
+    101914: zero_piv_wire_r_Control_sub
+    400000: ankle_l_
+    400002: ankle_r_
+    400004: arm_l_control
+    400006: arm_l_elbow
+    400008: arm_l_elbow 1
+    400010: arm_l_jointStart
+    400012: arm_l_pivot
+    400014: arm_l_slide
+    400016: arm_r_control
+    400018: arm_r_elbow_1
+    400020: arm_r_elbow_2
+    400022: arm_r_jointStart
+    400024: arm_r_pivot
+    400026: arm_r_slide
+    400028: armSlide_l_ctrl
+    400030: armSlide_r_ctrl
+    400032: backFlapControl
+    400034: backTrashTip
+    400036: backTrashTop
+    400038: bodyInnerControl
+    400040: bottom_l_flap
+    400042: bottom_r_flap
+    400044: bottomBackWheel_l_
+    400046: bottomBackWheel_r_
+    400048: bottomFrontWheel_l_
+    400050: bottomFrontWheel_r_
+    400052: cluster1Handle
+    400054: cluster2Handle
+    400056: consoleControl
+    400058: consoleJoint
+    400060: elbow1_l_control
+    400062: elbow1_r_control
+    400064: elbow2_l_control
+    400066: elbow2_r_control
+    400068: eye_l_base
+    400070: eye_r_base
+    400072: eyeball_l_
+    400074: eyeball_r_
+    400076: eyebrow_l_
+    400078: eyebrow_l_control
+    400080: eyebrow_r_
+    400082: eyebrow_r_control
+    400084: feet_l_tread
+    400086: feet_l_tread 1
+    400088: feet_l_tread 10
+    400090: feet_l_tread 11
+    400092: feet_l_tread 12
+    400094: feet_l_tread 13
+    400096: feet_l_tread 14
+    400098: feet_l_tread 15
+    400100: feet_l_tread 16
+    400102: feet_l_tread 17
+    400104: feet_l_tread 18
+    400106: feet_l_tread 19
+    400108: feet_l_tread 2
+    400110: feet_l_tread 20
+    400112: feet_l_tread 21
+    400114: feet_l_tread 22
+    400116: feet_l_tread 23
+    400118: feet_l_tread 24
+    400120: feet_l_tread 25
+    400122: feet_l_tread 26
+    400124: feet_l_tread 27
+    400126: feet_l_tread 28
+    400128: feet_l_tread 29
+    400130: feet_l_tread 3
+    400132: feet_l_tread 30
+    400134: feet_l_tread 4
+    400136: feet_l_tread 5
+    400138: feet_l_tread 6
+    400140: feet_l_tread 7
+    400142: feet_l_tread 8
+    400144: feet_l_tread 9
+    400146: feet_l_tread_ctrl
+    400148: feet_l_tread_ctrl 1
+    400150: feet_l_tread_ctrl 10
+    400152: feet_l_tread_ctrl 11
+    400154: feet_l_tread_ctrl 12
+    400156: feet_l_tread_ctrl 13
+    400158: feet_l_tread_ctrl 14
+    400160: feet_l_tread_ctrl 15
+    400162: feet_l_tread_ctrl 16
+    400164: feet_l_tread_ctrl 17
+    400166: feet_l_tread_ctrl 18
+    400168: feet_l_tread_ctrl 19
+    400170: feet_l_tread_ctrl 2
+    400172: feet_l_tread_ctrl 20
+    400174: feet_l_tread_ctrl 21
+    400176: feet_l_tread_ctrl 22
+    400178: feet_l_tread_ctrl 23
+    400180: feet_l_tread_ctrl 24
+    400182: feet_l_tread_ctrl 25
+    400184: feet_l_tread_ctrl 26
+    400186: feet_l_tread_ctrl 27
+    400188: feet_l_tread_ctrl 28
+    400190: feet_l_tread_ctrl 29
+    400192: feet_l_tread_ctrl 3
+    400194: feet_l_tread_ctrl 30
+    400196: feet_l_tread_ctrl 4
+    400198: feet_l_tread_ctrl 5
+    400200: feet_l_tread_ctrl 6
+    400202: feet_l_tread_ctrl 7
+    400204: feet_l_tread_ctrl 8
+    400206: feet_l_tread_ctrl 9
+    400208: feet_l_tread_grp
+    400210: feet_l_tread_grp 1
+    400212: feet_l_tread_grp 10
+    400214: feet_l_tread_grp 11
+    400216: feet_l_tread_grp 12
+    400218: feet_l_tread_grp 13
+    400220: feet_l_tread_grp 14
+    400222: feet_l_tread_grp 15
+    400224: feet_l_tread_grp 16
+    400226: feet_l_tread_grp 17
+    400228: feet_l_tread_grp 18
+    400230: feet_l_tread_grp 19
+    400232: feet_l_tread_grp 2
+    400234: feet_l_tread_grp 20
+    400236: feet_l_tread_grp 21
+    400238: feet_l_tread_grp 22
+    400240: feet_l_tread_grp 23
+    400242: feet_l_tread_grp 24
+    400244: feet_l_tread_grp 25
+    400246: feet_l_tread_grp 26
+    400248: feet_l_tread_grp 27
+    400250: feet_l_tread_grp 28
+    400252: feet_l_tread_grp 29
+    400254: feet_l_tread_grp 3
+    400256: feet_l_tread_grp 30
+    400258: feet_l_tread_grp 4
+    400260: feet_l_tread_grp 5
+    400262: feet_l_tread_grp 6
+    400264: feet_l_tread_grp 7
+    400266: feet_l_tread_grp 8
+    400268: feet_l_tread_grp 9
+    400270: feet_r_tread
+    400272: feet_r_tread 1
+    400274: feet_r_tread 10
+    400276: feet_r_tread 11
+    400278: feet_r_tread 12
+    400280: feet_r_tread 13
+    400282: feet_r_tread 14
+    400284: feet_r_tread 15
+    400286: feet_r_tread 16
+    400288: feet_r_tread 17
+    400290: feet_r_tread 18
+    400292: feet_r_tread 19
+    400294: feet_r_tread 2
+    400296: feet_r_tread 20
+    400298: feet_r_tread 21
+    400300: feet_r_tread 22
+    400302: feet_r_tread 23
+    400304: feet_r_tread 24
+    400306: feet_r_tread 25
+    400308: feet_r_tread 26
+    400310: feet_r_tread 27
+    400312: feet_r_tread 28
+    400314: feet_r_tread 29
+    400316: feet_r_tread 3
+    400318: feet_r_tread 30
+    400320: feet_r_tread 4
+    400322: feet_r_tread 5
+    400324: feet_r_tread 6
+    400326: feet_r_tread 7
+    400328: feet_r_tread 8
+    400330: feet_r_tread 9
+    400332: feet_r_tread_ctrl
+    400334: feet_r_tread_ctrl 1
+    400336: feet_r_tread_ctrl 10
+    400338: feet_r_tread_ctrl 11
+    400340: feet_r_tread_ctrl 12
+    400342: feet_r_tread_ctrl 13
+    400344: feet_r_tread_ctrl 14
+    400346: feet_r_tread_ctrl 15
+    400348: feet_r_tread_ctrl 16
+    400350: feet_r_tread_ctrl 17
+    400352: feet_r_tread_ctrl 18
+    400354: feet_r_tread_ctrl 19
+    400356: feet_r_tread_ctrl 2
+    400358: feet_r_tread_ctrl 20
+    400360: feet_r_tread_ctrl 21
+    400362: feet_r_tread_ctrl 22
+    400364: feet_r_tread_ctrl 23
+    400366: feet_r_tread_ctrl 24
+    400368: feet_r_tread_ctrl 25
+    400370: feet_r_tread_ctrl 26
+    400372: feet_r_tread_ctrl 27
+    400374: feet_r_tread_ctrl 28
+    400376: feet_r_tread_ctrl 29
+    400378: feet_r_tread_ctrl 3
+    400380: feet_r_tread_ctrl 30
+    400382: feet_r_tread_ctrl 4
+    400384: feet_r_tread_ctrl 5
+    400386: feet_r_tread_ctrl 6
+    400388: feet_r_tread_ctrl 7
+    400390: feet_r_tread_ctrl 8
+    400392: feet_r_tread_ctrl 9
+    400394: feet_r_tread_grp
+    400396: feet_r_tread_grp 1
+    400398: feet_r_tread_grp 10
+    400400: feet_r_tread_grp 11
+    400402: feet_r_tread_grp 12
+    400404: feet_r_tread_grp 13
+    400406: feet_r_tread_grp 14
+    400408: feet_r_tread_grp 15
+    400410: feet_r_tread_grp 16
+    400412: feet_r_tread_grp 17
+    400414: feet_r_tread_grp 18
+    400416: feet_r_tread_grp 19
+    400418: feet_r_tread_grp 2
+    400420: feet_r_tread_grp 20
+    400422: feet_r_tread_grp 21
+    400424: feet_r_tread_grp 22
+    400426: feet_r_tread_grp 23
+    400428: feet_r_tread_grp 24
+    400430: feet_r_tread_grp 25
+    400432: feet_r_tread_grp 26
+    400434: feet_r_tread_grp 27
+    400436: feet_r_tread_grp 28
+    400438: feet_r_tread_grp 29
+    400440: feet_r_tread_grp 3
+    400442: feet_r_tread_grp 30
+    400444: feet_r_tread_grp 4
+    400446: feet_r_tread_grp 5
+    400448: feet_r_tread_grp 6
+    400450: feet_r_tread_grp 7
+    400452: feet_r_tread_grp 8
+    400454: feet_r_tread_grp 9
+    400456: fkj_arm_l_elbow
+    400458: fkj_arm_l_elbow 1
+    400460: fkj_arm_l_pivot
+    400462: fkj_arm_r_elbow_1
+    400464: fkj_arm_r_elbow_2
+    400466: fkj_arm_r_pivot
+    400468: foot_l_slide
+    400470: foot_r_slide
+    400472: frontCompartment
+    400474: goggle_l_ctrl
+    400476: goggle_r_ctrl
+    400478: grp_ctrls
+    400480: grp_ik
+    400482: grp_joints
+    400484: grp_mesh
+    400486: grp_noTouch
+    400488: hand_l_control
+    400490: hand_l_index_A
+    400492: hand_l_index_B
+    400494: hand_l_index_C
+    400496: hand_l_pinky_A
+    400498: hand_l_pinky_B
+    400500: hand_l_pinky_C
+    400502: hand_l_thumb_A
+    400504: hand_l_thumb_B
+    400506: hand_l_thumb_C
+    400508: hand_r_control
+    400510: hand_r_index_A
+    400512: hand_r_index_B
+    400514: hand_r_index_C
+    400516: hand_r_pinky_A
+    400518: hand_r_pinky_B
+    400520: hand_r_pinky_C
+    400522: hand_r_thumb_A
+    400524: hand_r_thumb_B
+    400526: hand_r_thumb_C
+    400528: head_transform_ctrl
+    400530: headBase
+    400532: headControl
+    400534: hip_l
+    400536: hip_r_
+    400538: hip_root_l_
+    400540: hip_root_r_
+    400542: ik_hand_l_control
+    400544: ik_hand_r_control
+    400546: ikHandle2
+    400548: ikHandle3
+    400550: ikj_arm_l_elbow_1
+    400552: ikj_arm_l_elbow_2
+    400554: ikj_arm_l_pivot
+    400556: ikj_arm_r_elbow_1
+    400558: ikj_arm_r_elbow_2
+    400560: ikj_arm_r_pivot
+    400562: ikLeg_l_ctrl
+    400564: ikLeg_r_ctrl
+    400566: inner_finger_l_ctrl_1
+    400568: inner_finger_l_ctrl_2
+    400570: inner_finger_r_ctrl_1
+    400572: inner_finger_r_ctrl_2
+    400574: iris_l_base
+    400576: iris_r_base
+    400578: knee_l_1
+    400580: knee_l_2
+    400582: knee_r_1
+    400584: knee_r_2
+    400586: leftEyeControl
+    400588: leftIKLegGrp
+    400590: leftNeutralBlendShape
+    400592: leftOppositeBlendShape
+    400594: leftStorageBlendShape
+    400596: leftStorageBottomBlendShape
+    400598: locator1
+    400600: locator2
+    400602: neckBase
+    400604: neckBaseControl
+    400606: neckConnector
+    400608: neckControl
+    400610: neckIK
+    400612: neckMid
+    400614: neckPVControl
+    400616: neckTop
+    400618: neckTopPivot
+    400620: outer_finger_l_ctrl_1
+    400622: outer_finger_l_ctrl_2
+    400624: outer_finger_r_ctrl_1
+    400626: outer_finger_r_ctrl_2
+    400628: pauseButton
+    400630: pauseControl
+    400632: pCube1
+    400634: pCube11
+    400636: pCube12
+    400638: pCube13
+    400640: pCube14
+    400642: pCube15
+    400644: pCube16
+    400646: pCube17
+    400648: pCube19
+    400650: pCube21
+    400652: pCube3
+    400654: pCube32
+    400656: pCube33
+    400658: pCube39
+    400660: pCube4
+    400662: pCube44
+    400664: pCube46
+    400666: pCube47
+    400668: pCube48
+    400670: pCube49
+    400672: pCube50
+    400674: pCube51
+    400676: pCube52
+    400678: pCube53
+    400680: pCube54
+    400682: pCube55
+    400684: pCube56
+    400686: pCube57
+    400688: pCube58
+    400690: pCube59
+    400692: pCube60
+    400694: pCube61
+    400696: pCube62
+    400698: pCube63
+    400700: pCube64
+    400702: pCube65
+    400704: pCube66
+    400706: pCube67
+    400708: pCube68
+    400710: pCube69
+    400712: pCube7
+    400714: pCube71
+    400716: pCube72
+    400718: pCube73
+    400720: pCube74
+    400722: pCube75
+    400724: pCube76
+    400726: pCube77
+    400728: pCube8
+    400730: pCube9
+    400732: pCylinder1
+    400734: pCylinder10
+    400736: pCylinder100
+    400738: pCylinder101
+    400740: pCylinder102
+    400742: pCylinder103
+    400744: pCylinder104
+    400746: pCylinder105
+    400748: pCylinder106
+    400750: pCylinder107
+    400752: pCylinder11
+    400754: pCylinder12
+    400756: pCylinder15
+    400758: pCylinder16
+    400760: pCylinder17
+    400762: pCylinder18
+    400764: pCylinder19
+    400766: pCylinder2
+    400768: pCylinder27
+    400770: pCylinder28
+    400772: pCylinder3
+    400774: pCylinder33
+    400776: pCylinder36
+    400778: pCylinder38
+    400780: pCylinder43
+    400782: pCylinder44
+    400784: pCylinder47
+    400786: pCylinder48
+    400788: pCylinder49
+    400790: pCylinder50
+    400792: pCylinder51
+    400794: pCylinder61
+    400796: pCylinder62
+    400798: pCylinder63
+    400800: pCylinder68
+    400802: pCylinder69
+    400804: pCylinder71
+    400806: pCylinder74
+    400808: pCylinder75
+    400810: pCylinder76
+    400812: pCylinder80
+    400814: pCylinder81
+    400816: pCylinder82
+    400818: pCylinder83
+    400820: pCylinder84
+    400822: pCylinder85
+    400824: pCylinder86
+    400826: pCylinder87
+    400828: pCylinder88
+    400830: pCylinder89
+    400832: pCylinder9
+    400834: pCylinder90
+    400836: pCylinder91
+    400838: pCylinder92
+    400840: pCylinder93
+    400842: pCylinder94
+    400844: pCylinder95
+    400846: pCylinder96
+    400848: pCylinder97
+    400850: pCylinder98
+    400852: pCylinder99
+    400854: piv_arm_l_control
+    400856: piv_arm_l_control_sub
+    400858: piv_arm_r_control
+    400860: piv_arm_r_control_sub
+    400862: piv_armSlide_l_ctrl
+    400864: piv_armSlide_l_ctrl_sub
+    400866: piv_armSlide_r_ctrl
+    400868: piv_armSlide_r_ctrl_sub
+    400870: piv_backFlapControl
+    400872: piv_backFlapControl_sub
+    400874: piv_consoleControl
+    400876: piv_consoleControl_sub
+    400878: piv_elbow1_l_control
+    400880: piv_elbow1_l_control_sub
+    400882: piv_elbow1_r_control
+    400884: piv_elbow1_r_control_sub
+    400886: piv_elbow2_l_control
+    400888: piv_elbow2_l_control_sub
+    400890: piv_elbow2_r_control
+    400892: piv_elbow2_r_control_sub
+    400894: piv_eyebrow_l_control
+    400896: piv_eyebrow_l_control_sub
+    400898: piv_eyebrow_r_control
+    400900: piv_eyebrow_r_control_sub
+    400902: piv_feet_l_tread_ctrl
+    400904: piv_feet_l_tread_ctrl 1
+    400906: piv_feet_l_tread_ctrl 10
+    400908: piv_feet_l_tread_ctrl 11
+    400910: piv_feet_l_tread_ctrl 12
+    400912: piv_feet_l_tread_ctrl 13
+    400914: piv_feet_l_tread_ctrl 14
+    400916: piv_feet_l_tread_ctrl 15
+    400918: piv_feet_l_tread_ctrl 16
+    400920: piv_feet_l_tread_ctrl 17
+    400922: piv_feet_l_tread_ctrl 18
+    400924: piv_feet_l_tread_ctrl 19
+    400926: piv_feet_l_tread_ctrl 2
+    400928: piv_feet_l_tread_ctrl 20
+    400930: piv_feet_l_tread_ctrl 21
+    400932: piv_feet_l_tread_ctrl 22
+    400934: piv_feet_l_tread_ctrl 23
+    400936: piv_feet_l_tread_ctrl 24
+    400938: piv_feet_l_tread_ctrl 25
+    400940: piv_feet_l_tread_ctrl 26
+    400942: piv_feet_l_tread_ctrl 27
+    400944: piv_feet_l_tread_ctrl 28
+    400946: piv_feet_l_tread_ctrl 29
+    400948: piv_feet_l_tread_ctrl 3
+    400950: piv_feet_l_tread_ctrl 30
+    400952: piv_feet_l_tread_ctrl 4
+    400954: piv_feet_l_tread_ctrl 5
+    400956: piv_feet_l_tread_ctrl 6
+    400958: piv_feet_l_tread_ctrl 7
+    400960: piv_feet_l_tread_ctrl 8
+    400962: piv_feet_l_tread_ctrl 9
+    400964: piv_feet_r_tread_ctrl
+    400966: piv_feet_r_tread_ctrl 1
+    400968: piv_feet_r_tread_ctrl 10
+    400970: piv_feet_r_tread_ctrl 11
+    400972: piv_feet_r_tread_ctrl 12
+    400974: piv_feet_r_tread_ctrl 13
+    400976: piv_feet_r_tread_ctrl 14
+    400978: piv_feet_r_tread_ctrl 15
+    400980: piv_feet_r_tread_ctrl 16
+    400982: piv_feet_r_tread_ctrl 17
+    400984: piv_feet_r_tread_ctrl 18
+    400986: piv_feet_r_tread_ctrl 19
+    400988: piv_feet_r_tread_ctrl 2
+    400990: piv_feet_r_tread_ctrl 20
+    400992: piv_feet_r_tread_ctrl 21
+    400994: piv_feet_r_tread_ctrl 22
+    400996: piv_feet_r_tread_ctrl 23
+    400998: piv_feet_r_tread_ctrl 24
+    401000: piv_feet_r_tread_ctrl 25
+    401002: piv_feet_r_tread_ctrl 26
+    401004: piv_feet_r_tread_ctrl 27
+    401006: piv_feet_r_tread_ctrl 28
+    401008: piv_feet_r_tread_ctrl 29
+    401010: piv_feet_r_tread_ctrl 3
+    401012: piv_feet_r_tread_ctrl 30
+    401014: piv_feet_r_tread_ctrl 4
+    401016: piv_feet_r_tread_ctrl 5
+    401018: piv_feet_r_tread_ctrl 6
+    401020: piv_feet_r_tread_ctrl 7
+    401022: piv_feet_r_tread_ctrl 8
+    401024: piv_feet_r_tread_ctrl 9
+    401026: piv_goggle_l_ctrl
+    401028: piv_goggle_l_ctrl_sub
+    401030: piv_goggle_r_ctrl
+    401032: piv_goggle_r_ctrl_sub
+    401034: piv_hand_l_control
+    401036: piv_hand_l_control_sub
+    401038: piv_hand_r_control
+    401040: piv_hand_r_control_sub
+    401042: piv_head_transform_ctrl
+    401044: piv_head_transform_ctrl_sub
+    401046: piv_headControl
+    401048: piv_headControl_sub
+    401050: piv_ik_hand_l_control
+    401052: piv_ik_hand_l_control_sub
+    401054: piv_ik_hand_r_control
+    401056: piv_ik_hand_r_control_sub
+    401058: piv_ikLeg_l_ctrl
+    401060: piv_ikLeg_l_ctrl_sub
+    401062: piv_ikLeg_r_ctrl
+    401064: piv_ikLeg_r_ctrl_sub
+    401066: piv_inner_finger_l_ctrl_1
+    401068: piv_inner_finger_l_ctrl_1_sub
+    401070: piv_inner_finger_l_ctrl_2
+    401072: piv_inner_finger_l_ctrl_2_sub
+    401074: piv_inner_finger_r_ctrl_1
+    401076: piv_inner_finger_r_ctrl_1_sub
+    401078: piv_inner_finger_r_ctrl_2
+    401080: piv_inner_finger_r_ctrl_2_sub
+    401082: piv_leftEyeControl
+    401084: piv_leftEyeControl_sub
+    401086: piv_name
+    401088: piv_name_sub
+    401090: piv_neckBaseControl
+    401092: piv_neckBaseControl_sub
+    401094: piv_neckControl
+    401096: piv_neckControl_sub
+    401098: piv_neckPVControl
+    401100: piv_neckPVControl_sub
+    401102: piv_outer_finger_l_ctrl_1
+    401104: piv_outer_finger_l_ctrl_1_sub
+    401106: piv_outer_finger_l_ctrl_2
+    401108: piv_outer_finger_l_ctrl_2_sub
+    401110: piv_outer_finger_r_ctrl_1
+    401112: piv_outer_finger_r_ctrl_1_sub
+    401114: piv_outer_finger_r_ctrl_2
+    401116: piv_outer_finger_r_ctrl_2_sub
+    401118: piv_pauseControl
+    401120: piv_pauseControl_sub
+    401122: piv_playControl_sub
+    401124: piv_recordControl
+    401126: piv_recordControl 1
+    401128: piv_recordControl_sub
+    401130: piv_rightEyeControl
+    401132: piv_rightEyeControl_sub
+    401134: piv_rootControl
+    401136: piv_rootControl_sub
+    401138: piv_thumb_finger_l_ctrl_2
+    401140: piv_thumb_finger_l_ctrl_2_sub
+    401142: piv_thumb_finger_r_ctrl_2
+    401144: piv_thumb_finger_r_ctrl_2_sub
+    401146: piv_thumb_l_ctrl_1
+    401148: piv_thumb_l_ctrl_1_sub
+    401150: piv_thumb_r_ctrl_1
+    401152: piv_thumb_r_ctrl_1_sub
+    401154: piv_topControl
+    401156: piv_topControl_sub
+    401158: piv_torsoControl
+    401160: piv_torsoControl_sub
+    401162: piv_trashCompactorControl
+    401164: piv_trashCompactorControl_sub
+    401166: piv_trayControl
+    401168: piv_trayControl_sub
+    401170: piv_tread_l_ctrl
+    401172: piv_tread_l_ctrl_sub
+    401174: piv_tread_r_ctrl
+    401176: piv_tread_r_ctrl_sub
+    401178: piv_wheel_rotate_l_ctrl
+    401180: piv_wheel_rotate_l_ctrl_sub
+    401182: piv_wheel_rotate_r_ctrl
+    401184: piv_wheel_rotate_r_ctrl_sub
+    401186: piv_wire_l_Control
+    401188: piv_wire_l_Control_sub
+    401190: piv_wire_r_Control
+    401192: piv_wire_r_Control_sub
+    401194: playButton
+    401196: playControl
+    401198: polySurface10
+    401200: polySurface100
+    401202: polySurface101
+    401204: polySurface102
+    401206: polySurface103
+    401208: polySurface104
+    401210: polySurface106
+    401212: polySurface107
+    401214: polySurface108
+    401216: polySurface109
+    401218: polySurface11
+    401220: polySurface110
+    401222: polySurface111
+    401224: polySurface112
+    401226: polySurface113
+    401228: polySurface114
+    401230: polySurface115
+    401232: polySurface116
+    401234: polySurface117
+    401236: polySurface118
+    401238: polySurface119
+    401240: polySurface120
+    401242: polySurface121
+    401244: polySurface122
+    401246: polySurface123
+    401248: polySurface124
+    401250: polySurface125
+    401252: polySurface126
+    401254: polySurface127
+    401256: polySurface128
+    401258: polySurface129
+    401260: polySurface130
+    401262: polySurface131
+    401264: polySurface132
+    401266: polySurface133
+    401268: polySurface134
+    401270: polySurface135
+    401272: polySurface136
+    401274: polySurface137
+    401276: polySurface138
+    401278: polySurface139
+    401280: polySurface14
+    401282: polySurface140
+    401284: polySurface141
+    401286: polySurface142
+    401288: polySurface143
+    401290: polySurface144
+    401292: polySurface145
+    401294: polySurface148
+    401296: polySurface149
+    401298: polySurface150
+    401300: polySurface151
+    401302: polySurface152
+    401304: polySurface153
+    401306: polySurface154
+    401308: polySurface155
+    401310: polySurface156
+    401312: polySurface2
+    401314: polySurface22
+    401316: polySurface26
+    401318: polySurface27
+    401320: polySurface28
+    401322: polySurface29
+    401324: polySurface3
+    401326: polySurface30
+    401328: polySurface41
+    401330: polySurface42
+    401332: polySurface43
+    401334: polySurface44
+    401336: polySurface45
+    401338: polySurface46
+    401340: polySurface47
+    401342: polySurface5
+    401344: polySurface50
+    401346: polySurface51
+    401348: polySurface52
+    401350: polySurface53
+    401352: polySurface54
+    401354: polySurface55
+    401356: polySurface56
+    401358: polySurface57
+    401360: polySurface58
+    401362: polySurface59
+    401364: polySurface6
+    401366: polySurface60
+    401368: polySurface61
+    401370: polySurface62
+    401372: polySurface63
+    401374: polySurface64
+    401376: polySurface65
+    401378: polySurface66
+    401380: polySurface67
+    401382: polySurface68
+    401384: polySurface69
+    401386: polySurface70
+    401388: polySurface71
+    401390: polySurface72
+    401392: polySurface73
+    401394: polySurface74
+    401396: polySurface75
+    401398: polySurface76
+    401400: polySurface77
+    401402: polySurface78
+    401404: polySurface79
+    401406: polySurface8
+    401408: polySurface80
+    401410: polySurface85
+    401412: polySurface88
+    401414: polySurface89
+    401416: polySurface90
+    401418: polySurface95
+    401420: polySurface96
+    401422: polySurface97
+    401424: polySurface98
+    401426: polySurface99
+    401428: pPlane12
+    401430: pPlane13
+    401432: pPlane18
+    401434: pPlane19
+    401436: pPlane21
+    401438: pPlane23
+    401440: pPlane24
+    401442: pPlane25
+    401444: pPlane8
+    401446: pSphere1
+    401448: pSphere2
+    401450: pSphere3
+    401452: pSphere4
+    401454: pSphere5
+    401456: recordButton
+    401458: recordControl
+    401460: rightEyeControl
+    401462: rightIKLegGrp
+    401464: root
+    401466: rootControl
+    401468: thumb_finger_l_ctrl_2
+    401470: thumb_finger_r_ctrl_2
+    401472: thumb_l_ctrl_1
+    401474: thumb_r_ctrl_1
+    401476: top_l_flap
+    401478: top_r_flap
+    401480: topBackWheel_l_
+    401482: topBackWheel_r_
+    401484: topControl
+    401486: topFrontWheel_l_
+    401488: topFrontWheel_r_
+    401490: topPartTransform
+    401492: topPivot
+    401494: topWheels_l_rotate
+    401496: topWheels_l_slide
+    401498: topWheels_r_rotate
+    401500: topWheels_r_slide
+    401502: torsoControl
+    401504: trashCompactor
+    401506: trashCompactorControl
+    401508: trayControl
+    401510: tread_l_ctrl
+    401512: tread_l_mainCurve
+    401514: tread_r_ctrl
+    401516: tread_r_mainCurve
+    401518: //RootNode
+    401520: wheel_rotate_l_ctrl
+    401522: wheel_rotate_r_ctrl
+    401524: wire10
+    401526: wire10 1
+    401528: wire11
+    401530: wire11 1
+    401532: wire12
+    401534: wire12 1
+    401536: wire13
+    401538: wire13 1
+    401540: wire14
+    401542: wire14 1
+    401544: wire15
+    401546: wire15 1
+    401548: wire28
+    401550: wire6
+    401552: wire7
+    401554: wire7 1
+    401556: wire8
+    401558: wire8 1
+    401560: wire9
+    401562: wire9 1
+    401564: wire_l_Control
+    401566: wire_l_IK
+    401568: wire_r_Control
+    401570: wire_r_IK
+    401572: wrist_l_
+    401574: wrist_r_
+    401576: zero_piv_arm_l_control
+    401578: zero_piv_arm_l_control_sub
+    401580: zero_piv_arm_r_control
+    401582: zero_piv_arm_r_control_sub
+    401584: zero_piv_armSlide_l_ctrl
+    401586: zero_piv_armSlide_l_ctrl_sub
+    401588: zero_piv_armSlide_r_ctrl
+    401590: zero_piv_armSlide_r_ctrl_sub
+    401592: zero_piv_backFlapControl
+    401594: zero_piv_backFlapControl_sub
+    401596: zero_piv_consoleControl
+    401598: zero_piv_consoleControl_sub
+    401600: zero_piv_elbow1_l_control
+    401602: zero_piv_elbow1_l_control_sub
+    401604: zero_piv_elbow1_r_control
+    401606: zero_piv_elbow1_r_control_sub
+    401608: zero_piv_elbow2_l_control
+    401610: zero_piv_elbow2_l_control_sub
+    401612: zero_piv_elbow2_r_control
+    401614: zero_piv_elbow2_r_control_sub
+    401616: zero_piv_eyebrow_l_control
+    401618: zero_piv_eyebrow_l_control_sub
+    401620: zero_piv_eyebrow_r_control
+    401622: zero_piv_eyebrow_r_control_sub
+    401624: zero_piv_feet_l_tread_ctrl_1
+    401626: zero_piv_feet_l_tread_ctrl_10
+    401628: zero_piv_feet_l_tread_ctrl_11
+    401630: zero_piv_feet_l_tread_ctrl_12
+    401632: zero_piv_feet_l_tread_ctrl_13
+    401634: zero_piv_feet_l_tread_ctrl_14
+    401636: zero_piv_feet_l_tread_ctrl_15
+    401638: zero_piv_feet_l_tread_ctrl_16
+    401640: zero_piv_feet_l_tread_ctrl_17
+    401642: zero_piv_feet_l_tread_ctrl_18
+    401644: zero_piv_feet_l_tread_ctrl_19
+    401646: zero_piv_feet_l_tread_ctrl_2
+    401648: zero_piv_feet_l_tread_ctrl_20
+    401650: zero_piv_feet_l_tread_ctrl_21
+    401652: zero_piv_feet_l_tread_ctrl_22
+    401654: zero_piv_feet_l_tread_ctrl_23
+    401656: zero_piv_feet_l_tread_ctrl_24
+    401658: zero_piv_feet_l_tread_ctrl_25
+    401660: zero_piv_feet_l_tread_ctrl_26
+    401662: zero_piv_feet_l_tread_ctrl_27
+    401664: zero_piv_feet_l_tread_ctrl_28
+    401666: zero_piv_feet_l_tread_ctrl_29
+    401668: zero_piv_feet_l_tread_ctrl_3
+    401670: zero_piv_feet_l_tread_ctrl_30
+    401672: zero_piv_feet_l_tread_ctrl_31
+    401674: zero_piv_feet_l_tread_ctrl_4
+    401676: zero_piv_feet_l_tread_ctrl_5
+    401678: zero_piv_feet_l_tread_ctrl_6
+    401680: zero_piv_feet_l_tread_ctrl_7
+    401682: zero_piv_feet_l_tread_ctrl_8
+    401684: zero_piv_feet_l_tread_ctrl_9
+    401686: zero_piv_feet_r_tread_ctrl_1
+    401688: zero_piv_feet_r_tread_ctrl_10
+    401690: zero_piv_feet_r_tread_ctrl_11
+    401692: zero_piv_feet_r_tread_ctrl_12
+    401694: zero_piv_feet_r_tread_ctrl_13
+    401696: zero_piv_feet_r_tread_ctrl_14
+    401698: zero_piv_feet_r_tread_ctrl_15
+    401700: zero_piv_feet_r_tread_ctrl_16
+    401702: zero_piv_feet_r_tread_ctrl_17
+    401704: zero_piv_feet_r_tread_ctrl_18
+    401706: zero_piv_feet_r_tread_ctrl_19
+    401708: zero_piv_feet_r_tread_ctrl_2
+    401710: zero_piv_feet_r_tread_ctrl_20
+    401712: zero_piv_feet_r_tread_ctrl_21
+    401714: zero_piv_feet_r_tread_ctrl_22
+    401716: zero_piv_feet_r_tread_ctrl_23
+    401718: zero_piv_feet_r_tread_ctrl_24
+    401720: zero_piv_feet_r_tread_ctrl_25
+    401722: zero_piv_feet_r_tread_ctrl_26
+    401724: zero_piv_feet_r_tread_ctrl_27
+    401726: zero_piv_feet_r_tread_ctrl_28
+    401728: zero_piv_feet_r_tread_ctrl_29
+    401730: zero_piv_feet_r_tread_ctrl_3
+    401732: zero_piv_feet_r_tread_ctrl_30
+    401734: zero_piv_feet_r_tread_ctrl_31
+    401736: zero_piv_feet_r_tread_ctrl_4
+    401738: zero_piv_feet_r_tread_ctrl_5
+    401740: zero_piv_feet_r_tread_ctrl_6
+    401742: zero_piv_feet_r_tread_ctrl_7
+    401744: zero_piv_feet_r_tread_ctrl_8
+    401746: zero_piv_feet_r_tread_ctrl_9
+    401748: zero_piv_goggle_l_ctrl
+    401750: zero_piv_goggle_l_ctrl_sub
+    401752: zero_piv_goggle_r_ctrl
+    401754: zero_piv_goggle_r_ctrl_sub
+    401756: zero_piv_hand_l_control
+    401758: zero_piv_hand_l_control_sub
+    401760: zero_piv_hand_r_control
+    401762: zero_piv_hand_r_control_sub
+    401764: zero_piv_head_transform_ctrl
+    401766: zero_piv_head_transform_ctrl_sub
+    401768: zero_piv_headControl
+    401770: zero_piv_headControl_sub
+    401772: zero_piv_ik_hand_l_control
+    401774: zero_piv_ik_hand_l_control_sub
+    401776: zero_piv_ik_hand_r_control
+    401778: zero_piv_ik_hand_r_control_sub
+    401780: zero_piv_ikLeg_l_ctrl
+    401782: zero_piv_ikLeg_l_ctrl_sub
+    401784: zero_piv_ikLeg_r_ctrl
+    401786: zero_piv_ikLeg_r_ctrl_sub
+    401788: zero_piv_inner_finger_l_ctrl_1
+    401790: zero_piv_inner_finger_l_ctrl_1_sub
+    401792: zero_piv_inner_finger_l_ctrl_2
+    401794: zero_piv_inner_finger_l_ctrl_2_sub
+    401796: zero_piv_inner_finger_r_ctrl_1
+    401798: zero_piv_inner_finger_r_ctrl_1_sub
+    401800: zero_piv_inner_finger_r_ctrl_2
+    401802: zero_piv_inner_finger_r_ctrl_2_sub
+    401804: zero_piv_leftEyeControl
+    401806: zero_piv_leftEyeControl_sub
+    401808: zero_piv_name
+    401810: zero_piv_name_sub
+    401812: zero_piv_neckBaseControl
+    401814: zero_piv_neckBaseControl_sub
+    401816: zero_piv_neckControl
+    401818: zero_piv_neckControl_sub
+    401820: zero_piv_neckPVControl
+    401822: zero_piv_neckPVControl_sub
+    401824: zero_piv_outer_finger_l_ctrl_1
+    401826: zero_piv_outer_finger_l_ctrl_1_sub
+    401828: zero_piv_outer_finger_l_ctrl_2
+    401830: zero_piv_outer_finger_l_ctrl_2_sub
+    401832: zero_piv_outer_finger_r_ctrl_1
+    401834: zero_piv_outer_finger_r_ctrl_1_sub
+    401836: zero_piv_outer_finger_r_ctrl_2
+    401838: zero_piv_outer_finger_r_ctrl_2_sub
+    401840: zero_piv_pauseControl
+    401842: zero_piv_pauseControl_sub
+    401844: zero_piv_playControl
+    401846: zero_piv_playControl_sub
+    401848: zero_piv_recordControl
+    401850: zero_piv_recordControl_sub
+    401852: zero_piv_rightEyeControl
+    401854: zero_piv_rightEyeControl_sub
+    401856: zero_piv_rootControl
+    401858: zero_piv_rootControl_sub
+    401860: zero_piv_thumb_finger_l_ctrl_2
+    401862: zero_piv_thumb_finger_l_ctrl_2_sub
+    401864: zero_piv_thumb_finger_r_ctrl_2
+    401866: zero_piv_thumb_finger_r_ctrl_2_sub
+    401868: zero_piv_thumb_l_ctrl_1
+    401870: zero_piv_thumb_l_ctrl_1_sub
+    401872: zero_piv_thumb_r_ctrl_1
+    401874: zero_piv_thumb_r_ctrl_1_sub
+    401876: zero_piv_topControl
+    401878: zero_piv_topControl_sub
+    401880: zero_piv_torsoControl
+    401882: zero_piv_torsoControl_sub
+    401884: zero_piv_trashCompactorControl
+    401886: zero_piv_trashCompactorControl_sub
+    401888: zero_piv_trayControl
+    401890: zero_piv_trayControl_sub
+    401892: zero_piv_tread_l_ctrl
+    401894: zero_piv_tread_l_ctrl_sub
+    401896: zero_piv_tread_r_ctrl
+    401898: zero_piv_tread_r_ctrl_sub
+    401900: zero_piv_wheel_rotate_l_ctrl
+    401902: zero_piv_wheel_rotate_l_ctrl_sub
+    401904: zero_piv_wheel_rotate_r_ctrl
+    401906: zero_piv_wheel_rotate_r_ctrl_sub
+    401908: zero_piv_wire_l_Control
+    401910: zero_piv_wire_l_Control_sub
+    401912: zero_piv_wire_r_Control
+    401914: zero_piv_wire_r_Control_sub
+    2300000: feet_l_tread
+    2300002: feet_l_tread 1
+    2300004: feet_l_tread 10
+    2300006: feet_l_tread 11
+    2300008: feet_l_tread 12
+    2300010: feet_l_tread 13
+    2300012: feet_l_tread 14
+    2300014: feet_l_tread 15
+    2300016: feet_l_tread 16
+    2300018: feet_l_tread 17
+    2300020: feet_l_tread 18
+    2300022: feet_l_tread 19
+    2300024: feet_l_tread 2
+    2300026: feet_l_tread 20
+    2300028: feet_l_tread 21
+    2300030: feet_l_tread 22
+    2300032: feet_l_tread 23
+    2300034: feet_l_tread 24
+    2300036: feet_l_tread 25
+    2300038: feet_l_tread 26
+    2300040: feet_l_tread 27
+    2300042: feet_l_tread 28
+    2300044: feet_l_tread 29
+    2300046: feet_l_tread 3
+    2300048: feet_l_tread 30
+    2300050: feet_l_tread 4
+    2300052: feet_l_tread 5
+    2300054: feet_l_tread 6
+    2300056: feet_l_tread 7
+    2300058: feet_l_tread 8
+    2300060: feet_l_tread 9
+    2300062: feet_r_tread
+    2300064: feet_r_tread 1
+    2300066: feet_r_tread 10
+    2300068: feet_r_tread 11
+    2300070: feet_r_tread 12
+    2300072: feet_r_tread 13
+    2300074: feet_r_tread 14
+    2300076: feet_r_tread 15
+    2300078: feet_r_tread 16
+    2300080: feet_r_tread 17
+    2300082: feet_r_tread 18
+    2300084: feet_r_tread 19
+    2300086: feet_r_tread 2
+    2300088: feet_r_tread 20
+    2300090: feet_r_tread 21
+    2300092: feet_r_tread 22
+    2300094: feet_r_tread 23
+    2300096: feet_r_tread 24
+    2300098: feet_r_tread 25
+    2300100: feet_r_tread 26
+    2300102: feet_r_tread 27
+    2300104: feet_r_tread 28
+    2300106: feet_r_tread 29
+    2300108: feet_r_tread 3
+    2300110: feet_r_tread 30
+    2300112: feet_r_tread 4
+    2300114: feet_r_tread 5
+    2300116: feet_r_tread 6
+    2300118: feet_r_tread 7
+    2300120: feet_r_tread 8
+    2300122: feet_r_tread 9
+    2300124: polySurface115
+    2300126: polySurface116
+    2300128: polySurface117
+    2300130: polySurface118
+    2300132: polySurface119
+    2300134: polySurface120
+    2300136: polySurface121
+    2300138: polySurface122
+    2300140: polySurface123
+    2300142: polySurface124
+    2300144: polySurface125
+    2300146: polySurface126
+    2300148: polySurface127
+    2300150: polySurface128
+    2300152: polySurface129
+    2300154: polySurface130
+    2300156: polySurface131
+    2300158: polySurface132
+    2300160: polySurface133
+    2300162: polySurface134
+    2300164: polySurface135
+    2300166: polySurface136
+    2300168: polySurface137
+    2300170: polySurface138
+    2300172: polySurface139
+    2300174: polySurface140
+    2300176: polySurface141
+    2300178: polySurface142
+    2300180: polySurface143
+    2300182: polySurface144
+    2300184: polySurface145
+    2300186: polySurface50
+    2300188: polySurface51
+    2300190: polySurface52
+    2300192: polySurface53
+    2300194: polySurface54
+    2300196: polySurface55
+    2300198: polySurface56
+    2300200: polySurface57
+    2300202: polySurface58
+    2300204: polySurface59
+    2300206: polySurface60
+    2300208: polySurface61
+    2300210: polySurface62
+    2300212: polySurface63
+    2300214: polySurface64
+    2300216: polySurface65
+    2300218: polySurface66
+    2300220: polySurface67
+    2300222: polySurface68
+    2300224: polySurface69
+    2300226: polySurface70
+    2300228: polySurface71
+    2300230: polySurface72
+    2300232: polySurface73
+    2300234: polySurface74
+    2300236: polySurface75
+    2300238: polySurface76
+    2300240: polySurface77
+    2300242: polySurface78
+    2300244: polySurface79
+    2300246: polySurface80
+    3300000: feet_l_tread
+    3300002: feet_l_tread 1
+    3300004: feet_l_tread 10
+    3300006: feet_l_tread 11
+    3300008: feet_l_tread 12
+    3300010: feet_l_tread 13
+    3300012: feet_l_tread 14
+    3300014: feet_l_tread 15
+    3300016: feet_l_tread 16
+    3300018: feet_l_tread 17
+    3300020: feet_l_tread 18
+    3300022: feet_l_tread 19
+    3300024: feet_l_tread 2
+    3300026: feet_l_tread 20
+    3300028: feet_l_tread 21
+    3300030: feet_l_tread 22
+    3300032: feet_l_tread 23
+    3300034: feet_l_tread 24
+    3300036: feet_l_tread 25
+    3300038: feet_l_tread 26
+    3300040: feet_l_tread 27
+    3300042: feet_l_tread 28
+    3300044: feet_l_tread 29
+    3300046: feet_l_tread 3
+    3300048: feet_l_tread 30
+    3300050: feet_l_tread 4
+    3300052: feet_l_tread 5
+    3300054: feet_l_tread 6
+    3300056: feet_l_tread 7
+    3300058: feet_l_tread 8
+    3300060: feet_l_tread 9
+    3300062: feet_r_tread
+    3300064: feet_r_tread 1
+    3300066: feet_r_tread 10
+    3300068: feet_r_tread 11
+    3300070: feet_r_tread 12
+    3300072: feet_r_tread 13
+    3300074: feet_r_tread 14
+    3300076: feet_r_tread 15
+    3300078: feet_r_tread 16
+    3300080: feet_r_tread 17
+    3300082: feet_r_tread 18
+    3300084: feet_r_tread 19
+    3300086: feet_r_tread 2
+    3300088: feet_r_tread 20
+    3300090: feet_r_tread 21
+    3300092: feet_r_tread 22
+    3300094: feet_r_tread 23
+    3300096: feet_r_tread 24
+    3300098: feet_r_tread 25
+    3300100: feet_r_tread 26
+    3300102: feet_r_tread 27
+    3300104: feet_r_tread 28
+    3300106: feet_r_tread 29
+    3300108: feet_r_tread 3
+    3300110: feet_r_tread 30
+    3300112: feet_r_tread 4
+    3300114: feet_r_tread 5
+    3300116: feet_r_tread 6
+    3300118: feet_r_tread 7
+    3300120: feet_r_tread 8
+    3300122: feet_r_tread 9
+    3300124: polySurface115
+    3300126: polySurface116
+    3300128: polySurface117
+    3300130: polySurface118
+    3300132: polySurface119
+    3300134: polySurface120
+    3300136: polySurface121
+    3300138: polySurface122
+    3300140: polySurface123
+    3300142: polySurface124
+    3300144: polySurface125
+    3300146: polySurface126
+    3300148: polySurface127
+    3300150: polySurface128
+    3300152: polySurface129
+    3300154: polySurface130
+    3300156: polySurface131
+    3300158: polySurface132
+    3300160: polySurface133
+    3300162: polySurface134
+    3300164: polySurface135
+    3300166: polySurface136
+    3300168: polySurface137
+    3300170: polySurface138
+    3300172: polySurface139
+    3300174: polySurface140
+    3300176: polySurface141
+    3300178: polySurface142
+    3300180: polySurface143
+    3300182: polySurface144
+    3300184: polySurface145
+    3300186: polySurface50
+    3300188: polySurface51
+    3300190: polySurface52
+    3300192: polySurface53
+    3300194: polySurface54
+    3300196: polySurface55
+    3300198: polySurface56
+    3300200: polySurface57
+    3300202: polySurface58
+    3300204: polySurface59
+    3300206: polySurface60
+    3300208: polySurface61
+    3300210: polySurface62
+    3300212: polySurface63
+    3300214: polySurface64
+    3300216: polySurface65
+    3300218: polySurface66
+    3300220: polySurface67
+    3300222: polySurface68
+    3300224: polySurface69
+    3300226: polySurface70
+    3300228: polySurface71
+    3300230: polySurface72
+    3300232: polySurface73
+    3300234: polySurface74
+    3300236: polySurface75
+    3300238: polySurface76
+    3300240: polySurface77
+    3300242: polySurface78
+    3300244: polySurface79
+    3300246: polySurface80
+    4300000: pCube12
+    4300002: pCube13
+    4300004: pCube14
+    4300006: pCube15
+    4300008: pPlane8
+    4300010: pCube16
+    4300012: pCube17
+    4300014: polySurface11
+    4300016: pPlane18
+    4300018: pPlane19
+    4300020: pCylinder38
+    4300022: pCube49
+    4300024: pPlane21
+    4300026: polySurface90
+    4300028: pCube52
+    4300030: polySurface95
+    4300032: polySurface96
+    4300034: polySurface97
+    4300036: pCube57
+    4300038: pCube58
+    4300040: pCube59
+    4300042: pCube60
+    4300044: pPlane23
+    4300046: pCube19
+    4300048: polySurface10
+    4300050: pCube53
+    4300052: pCube56
+    4300054: pCube61
+    4300056: pCube62
+    4300058: pCube63
+    4300060: polySurface99
+    4300062: polySurface14
+    4300064: polySurface98
+    4300066: polySurface22
+    4300068: polySurface26
+    4300070: polySurface27
+    4300072: polySurface28
+    4300074: polySurface29
+    4300076: polySurface30
+    4300078: pCylinder43
+    4300080: polySurface41
+    4300082: pCylinder44
+    4300084: polySurface42
+    4300086: polySurface43
+    4300088: polySurface44
+    4300090: pCylinder47
+    4300092: pCylinder48
+    4300094: pCylinder49
+    4300096: pCylinder50
+    4300098: pCylinder51
+    4300100: pCube32
+    4300102: pCube33
+    4300104: polySurface47
+    4300106: polySurface50
+    4300108: polySurface51
+    4300110: polySurface52
+    4300112: polySurface53
+    4300114: polySurface54
+    4300116: polySurface55
+    4300118: polySurface56
+    4300120: polySurface57
+    4300122: polySurface58
+    4300124: polySurface59
+    4300126: polySurface60
+    4300128: polySurface61
+    4300130: polySurface62
+    4300132: polySurface63
+    4300134: polySurface64
+    4300136: polySurface65
+    4300138: polySurface66
+    4300140: polySurface67
+    4300142: polySurface68
+    4300144: polySurface69
+    4300146: polySurface70
+    4300148: polySurface71
+    4300150: polySurface72
+    4300152: polySurface73
+    4300154: polySurface74
+    4300156: polySurface75
+    4300158: polySurface76
+    4300160: polySurface77
+    4300162: polySurface78
+    4300164: polySurface79
+    4300166: polySurface80
+    4300168: pCube39
+    4300170: polySurface45
+    4300172: polySurface46
+    4300174: polySurface100
+    4300176: polySurface101
+    4300178: pCube7
+    4300180: pCube8
+    4300182: pCylinder9
+    4300184: pSphere2
+    4300186: pSphere3
+    4300188: pCylinder10
+    4300190: pCylinder11
+    4300192: pSphere4
+    4300194: pCube9
+    4300196: pCylinder12
+    4300198: pCylinder15
+    4300200: pCylinder16
+    4300202: pCylinder17
+    4300204: pCylinder18
+    4300206: pCylinder19
+    4300208: pCylinder27
+    4300210: pCylinder28
+    4300212: pSphere1
+    4300214: pSphere5
+    4300216: pCube11
+    4300218: pCylinder85
+    4300220: pCube44
+    4300222: pCylinder68
+    4300224: pCylinder69
+    4300226: pCube46
+    4300228: pCube47
+    4300230: pCylinder71
+    4300232: pCube48
+    4300234: polySurface88
+    4300236: pCylinder74
+    4300238: pCylinder75
+    4300240: pCylinder76
+    4300242: pCylinder80
+    4300244: polySurface89
+    4300246: pCube50
+    4300248: pCube51
+    4300250: pCylinder86
+    4300252: pCube64
+    4300254: pCylinder87
+    4300256: pCylinder88
+    4300258: pCube65
+    4300260: pCube66
+    4300262: pCylinder89
+    4300264: pCube67
+    4300266: polySurface102
+    4300268: pCylinder90
+    4300270: pCylinder91
+    4300272: pCylinder92
+    4300274: pCylinder93
+    4300276: polySurface103
+    4300278: pCube68
+    4300280: pCube69
+    4300282: pCylinder94
+    4300284: polySurface104
+    4300286: polySurface106
+    4300288: polySurface107
+    4300290: polySurface108
+    4300292: polySurface109
+    4300294: pCylinder95
+    4300296: polySurface110
+    4300298: pCylinder96
+    4300300: polySurface111
+    4300302: polySurface112
+    4300304: polySurface113
+    4300306: pCylinder97
+    4300308: pCylinder98
+    4300310: pCylinder99
+    4300312: pCylinder100
+    4300314: pCylinder101
+    4300316: pCube71
+    4300318: pCube72
+    4300320: polySurface114
+    4300322: polySurface115
+    4300324: polySurface116
+    4300326: polySurface117
+    4300328: polySurface118
+    4300330: polySurface119
+    4300332: polySurface120
+    4300334: polySurface121
+    4300336: polySurface122
+    4300338: polySurface123
+    4300340: polySurface124
+    4300342: polySurface125
+    4300344: polySurface126
+    4300346: polySurface127
+    4300348: polySurface128
+    4300350: polySurface129
+    4300352: polySurface130
+    4300354: polySurface131
+    4300356: polySurface132
+    4300358: polySurface133
+    4300360: polySurface134
+    4300362: polySurface135
+    4300364: polySurface136
+    4300366: polySurface137
+    4300368: polySurface138
+    4300370: polySurface139
+    4300372: polySurface140
+    4300374: polySurface141
+    4300376: polySurface142
+    4300378: polySurface143
+    4300380: polySurface144
+    4300382: polySurface145
+    4300384: pCube73
+    4300386: polySurface148
+    4300388: polySurface149
+    4300390: polySurface150
+    4300392: polySurface151
+    4300394: pPlane13
+    4300396: pCube21
+    4300398: pPlane12
+    4300400: pCylinder36
+    4300402: pCube54
+    4300404: pCube55
+    4300406: pPlane24
+    4300408: pCube74
+    4300410: pPlane25
+    4300412: pCylinder102
+    4300414: polySurface2
+    4300416: polySurface3
+    4300418: pCylinder1
+    4300420: pCylinder2
+    4300422: pCylinder3
+    4300424: polySurface5
+    4300426: polySurface6
+    4300428: pCube1
+    4300430: polySurface8
+    4300432: pCube3
+    4300434: pCube4
+    4300436: pCylinder33
+    4300438: pCylinder81
+    4300440: pCylinder82
+    4300442: pCylinder83
+    4300444: pCylinder84
+    4300446: polySurface152
+    4300448: polySurface153
+    4300450: polySurface154
+    4300452: pCube75
+    4300454: polySurface155
+    4300456: pCube76
+    4300458: pCube77
+    4300460: pCylinder103
+    4300462: pCylinder104
+    4300464: pCylinder105
+    4300466: pCylinder106
+    4300468: pCylinder107
+    4300470: polySurface85
+    4300472: pCylinder61
+    4300474: pCylinder62
+    4300476: pCylinder63
+    4300478: polySurface156
+    4300480: feet_l_tread
+    4300482: feet_l_tread
+    4300484: feet_l_tread
+    4300486: feet_l_tread
+    4300488: feet_l_tread
+    4300490: feet_l_tread
+    4300492: feet_l_tread
+    4300494: feet_l_tread
+    4300496: feet_l_tread
+    4300498: feet_l_tread
+    4300500: feet_l_tread
+    4300502: feet_l_tread
+    4300504: feet_l_tread
+    4300506: feet_l_tread
+    4300508: feet_l_tread
+    4300510: feet_l_tread
+    4300512: feet_l_tread
+    4300514: feet_l_tread
+    4300516: feet_l_tread
+    4300518: feet_l_tread
+    4300520: feet_l_tread
+    4300522: feet_l_tread
+    4300524: feet_l_tread
+    4300526: feet_l_tread
+    4300528: feet_l_tread
+    4300530: feet_l_tread
+    4300532: feet_l_tread
+    4300534: feet_l_tread
+    4300536: feet_l_tread
+    4300538: feet_l_tread
+    4300540: feet_l_tread
+    4300542: feet_r_tread
+    4300544: feet_r_tread
+    4300546: feet_r_tread
+    4300548: feet_r_tread
+    4300550: feet_r_tread
+    4300552: feet_r_tread
+    4300554: feet_r_tread
+    4300556: feet_r_tread
+    4300558: feet_r_tread
+    4300560: feet_r_tread
+    4300562: feet_r_tread
+    4300564: feet_r_tread
+    4300566: feet_r_tread
+    4300568: feet_r_tread
+    4300570: feet_r_tread
+    4300572: feet_r_tread
+    4300574: feet_r_tread
+    4300576: feet_r_tread
+    4300578: feet_r_tread
+    4300580: feet_r_tread
+    4300582: feet_r_tread
+    4300584: feet_r_tread
+    4300586: feet_r_tread
+    4300588: feet_r_tread
+    4300590: feet_r_tread
+    4300592: feet_r_tread
+    4300594: feet_r_tread
+    4300596: feet_r_tread
+    4300598: feet_r_tread
+    4300600: feet_r_tread
+    4300602: feet_r_tread
+    9500000: //RootNode
+    13700000: pCube1
+    13700002: pCube11
+    13700004: pCube12
+    13700006: pCube13
+    13700008: pCube14
+    13700010: pCube15
+    13700012: pCube16
+    13700014: pCube17
+    13700016: pCube19
+    13700018: pCube21
+    13700020: pCube3
+    13700022: pCube32
+    13700024: pCube33
+    13700026: pCube39
+    13700028: pCube4
+    13700030: pCube44
+    13700032: pCube46
+    13700034: pCube47
+    13700036: pCube48
+    13700038: pCube49
+    13700040: pCube50
+    13700042: pCube51
+    13700044: pCube52
+    13700046: pCube53
+    13700048: pCube54
+    13700050: pCube55
+    13700052: pCube56
+    13700054: pCube57
+    13700056: pCube58
+    13700058: pCube59
+    13700060: pCube60
+    13700062: pCube61
+    13700064: pCube62
+    13700066: pCube63
+    13700068: pCube64
+    13700070: pCube65
+    13700072: pCube66
+    13700074: pCube67
+    13700076: pCube68
+    13700078: pCube69
+    13700080: pCube7
+    13700082: pCube71
+    13700084: pCube72
+    13700086: pCube73
+    13700088: pCube74
+    13700090: pCube75
+    13700092: pCube76
+    13700094: pCube77
+    13700096: pCube8
+    13700098: pCube9
+    13700100: pCylinder1
+    13700102: pCylinder10
+    13700104: pCylinder100
+    13700106: pCylinder101
+    13700108: pCylinder102
+    13700110: pCylinder103
+    13700112: pCylinder104
+    13700114: pCylinder105
+    13700116: pCylinder106
+    13700118: pCylinder107
+    13700120: pCylinder11
+    13700122: pCylinder12
+    13700124: pCylinder15
+    13700126: pCylinder16
+    13700128: pCylinder17
+    13700130: pCylinder18
+    13700132: pCylinder19
+    13700134: pCylinder2
+    13700136: pCylinder27
+    13700138: pCylinder28
+    13700140: pCylinder3
+    13700142: pCylinder33
+    13700144: pCylinder36
+    13700146: pCylinder38
+    13700148: pCylinder43
+    13700150: pCylinder44
+    13700152: pCylinder47
+    13700154: pCylinder48
+    13700156: pCylinder49
+    13700158: pCylinder50
+    13700160: pCylinder51
+    13700162: pCylinder61
+    13700164: pCylinder62
+    13700166: pCylinder63
+    13700168: pCylinder68
+    13700170: pCylinder69
+    13700172: pCylinder71
+    13700174: pCylinder74
+    13700176: pCylinder75
+    13700178: pCylinder76
+    13700180: pCylinder80
+    13700182: pCylinder81
+    13700184: pCylinder82
+    13700186: pCylinder83
+    13700188: pCylinder84
+    13700190: pCylinder85
+    13700192: pCylinder86
+    13700194: pCylinder87
+    13700196: pCylinder88
+    13700198: pCylinder89
+    13700200: pCylinder9
+    13700202: pCylinder90
+    13700204: pCylinder91
+    13700206: pCylinder92
+    13700208: pCylinder93
+    13700210: pCylinder94
+    13700212: pCylinder95
+    13700214: pCylinder96
+    13700216: pCylinder97
+    13700218: pCylinder98
+    13700220: pCylinder99
+    13700222: polySurface10
+    13700224: polySurface100
+    13700226: polySurface101
+    13700228: polySurface102
+    13700230: polySurface103
+    13700232: polySurface104
+    13700234: polySurface106
+    13700236: polySurface107
+    13700238: polySurface108
+    13700240: polySurface109
+    13700242: polySurface11
+    13700244: polySurface110
+    13700246: polySurface111
+    13700248: polySurface112
+    13700250: polySurface113
+    13700252: polySurface114
+    13700254: polySurface14
+    13700256: polySurface148
+    13700258: polySurface149
+    13700260: polySurface150
+    13700262: polySurface151
+    13700264: polySurface152
+    13700266: polySurface153
+    13700268: polySurface154
+    13700270: polySurface155
+    13700272: polySurface156
+    13700274: polySurface2
+    13700276: polySurface22
+    13700278: polySurface26
+    13700280: polySurface27
+    13700282: polySurface28
+    13700284: polySurface29
+    13700286: polySurface3
+    13700288: polySurface30
+    13700290: polySurface41
+    13700292: polySurface42
+    13700294: polySurface43
+    13700296: polySurface44
+    13700298: polySurface45
+    13700300: polySurface46
+    13700302: polySurface47
+    13700304: polySurface5
+    13700306: polySurface6
+    13700308: polySurface8
+    13700310: polySurface85
+    13700312: polySurface88
+    13700314: polySurface89
+    13700316: polySurface90
+    13700318: polySurface95
+    13700320: polySurface96
+    13700322: polySurface97
+    13700324: polySurface98
+    13700326: polySurface99
+    13700328: pPlane12
+    13700330: pPlane13
+    13700332: pPlane18
+    13700334: pPlane19
+    13700336: pPlane21
+    13700338: pPlane23
+    13700340: pPlane24
+    13700342: pPlane25
+    13700344: pPlane8
+    13700346: pSphere1
+    13700348: pSphere2
+    13700350: pSphere3
+    13700352: pSphere4
+    13700354: pSphere5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
