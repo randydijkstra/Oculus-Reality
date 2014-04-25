@@ -16,8 +16,7 @@ Ricardo Snoek 	(<a href="http://ricardoismy.name" target="_blank">Website</a>)
 HOW DOES IT WORK?
 --------------
 
-
-We want to use OpenCV for camera input analysing. The library contains a wide variation of many nifty features.
+In short: We hooked up 2 USB cameras, put the feed into the Unity Game Engine and ran a script to detect objects. We want to use OpenCV for camera input analysing. The library contains a wide variation of many nifty features.
 
 *For the current example we don't make use of OpenCV just yet. We have made preparations for the implementation of OpenCV. It will enable to create all sorts of augemented reality features in the future.*
 
@@ -37,18 +36,21 @@ This is a guide to help you set up your project.
 - OpenCV & OpenCVSharp
 
 **Step 1**
-Install Unity Pro 4
+Hook up the USB cameras and make sure you have video input. Mount them onto the headset somehow. We used 3d-printed brackets. A bit of ductape will also do, as long you have positioned them right.
 
 **Step 2**
+Install Unity Pro 4
+
+**Step 3**
 Install OpenCV. 
 Guides for platforms can be found in the following links:
 - <a href="http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html">Windows</a>
 - <a href="http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html">Linux<a>
 - Mac OSX
 
-**Step 3**
+**Step 4**
 Install OpenCVSharp
 If you are on Mac: Copy paste the dylibs from the 'OpenCVSharp' folder into the '/usr/local/lib' folder.
 
-**Step 4**
+**Step 5**
 Open a new project in Unity.
