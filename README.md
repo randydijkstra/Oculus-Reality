@@ -11,6 +11,16 @@ Greetings from the developers of Oculus Reality,
 Randy Dijkstra	(<a href="https://twitter.com/Ereinion25" target="_blank">@Ereinion25</a>),
 Ricardo Snoek 	(<a href="http://ricardoismy.name" target="_blank">Website</a>)
 
+![alt tag](https://github.com/randydijkstra/Oculus-Reality/blob/master/Photos/Wall-E%20in%20your%20hand.jpg)
+
+HOW DOES IT WORK?
+--------------
+
+
+We want to use OpenCV for camera input analysing. The library contains a wide variation of many nifty features.
+
+*For the current example we don't make use of OpenCV just yet. We have made preparations for the implementation of OpenCV. It will enable to create all sorts of augemented reality features in the future.*
+
 
 HOW TO SET UP
 --------------
