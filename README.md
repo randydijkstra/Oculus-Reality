@@ -23,7 +23,7 @@ This is a guide to help you set up your project.
 - Patience 
 - Oculus Rift devkit
 - 2 USB cameras. We used two disassembled Logitech C270's. Those are very small and thus easy to mount unto the Oculus Rift headset.
-- Unity 4 Pro
+- Unity 4 Pro. Oculus Rift support is at the moment only available in the Pro edition.
 - OpenCV & OpenCVSharp
 
 **Step 1**
