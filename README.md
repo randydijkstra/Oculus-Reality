@@ -11,7 +11,7 @@ Greetings from the developers of Oculus Reality,
 Randy Dijkstra	(<a href="https://twitter.com/Ereinion25" target="_blank">@Ereinion25</a>),
 Ricardo Snoek 	(<a href="http://ricardoismy.name" target="_blank">Website</a>)
 
-![alt tag](https://github.com/randydijkstra/Oculus-Reality/blob/master/Photos/Wall-E%20in%20your%20hand.jpg)
+![Alt text](/Photos/Wall-E%20in%20your%20hand.jpg?raw=true "Wall-E in your hand.")
 
 HOW DOES IT WORK?
 --------------
